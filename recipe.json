@@ -32,8 +32,8 @@
         "salt:0.7g"
     ]
         },
-        [
-            {
+        
+        {
              "id": 2,
              "image": "",
              "name" : "Sausage ragu",
@@ -71,8 +71,6 @@
                 "protein:19g",
                 "salt:0.5g"
             ]
-                }
-        
-        ]
+        }
 
 ]
