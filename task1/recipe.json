@@ -1,0 +1,115 @@
+[
+    {
+     "id": 1,
+     "image": "",
+     "name" : "One-pan pasta",
+     "ingredients": ["1 tbsp rapeseed oil",
+                    "12 meatballs (300g)",
+                    "1 onion, finely chopped",
+                    "3 garlic cloves, finely chopped",
+                    "2 tbsp ketchup",
+                    "2 x 400g cans chopped tomatoes",
+                    "1 large bunch of basil, finely chopped, plus a few whole leaves",
+                    "225g dried spaghetti" ],
+    "method": [
+        "Step1: Heat the oil in a deep, wide frying pan or casserole dish over a medium-high heat. Tip in the meatballs and cook for 5 mins, turning until browned all over. Add the onion and garlic, and fry for 8 more mins until softened.",
+        "Step2: Add the ketchup, chopped tomatoes, chopped basil and 400ml water to the pan and bring to the boil. Add the spaghetti and cook for 10-12 mins, stirring occasionally. When the pasta is cooked and the sauce has reduced, season and sprinkle with the basil leaves to serve."
+    ],
+    "preptime":[
+        0,0,0,0,0,0,5,0,0,0
+    ],
+    "cooktime": [
+        0,0,0,0,0,0,30,0,0,0
+    ],
+    "nutrition": [
+        "kcal:477",
+        "fat:13g",
+        "saturates:4g",
+        "carbs:58g",
+        "sugars:14g",
+        "fibre:5g",
+        "protein:30g",
+        "salt:0.7g"
+    ]
+        },
+        {  
+             "id": 2,
+             "image": "",
+             "name" : "Sausage ragu",
+             "ingredients": ["3 tbsp olive oil",
+                "1 onion, finely chopped",
+                "2 large garlic cloves, crushed",
+                "¼ tsp chilli flakes",
+                "2 rosemary sprigs, leaves finely chopped",
+                "2 x 400g cans chopped tomatoes",
+                "1 tbsp brown sugar",
+                "6 pork sausages",
+                "150ml whole milk",
+                "1 lemon, zested",
+                "350g rigatoni pasta",
+                "grated parmesan and ½ small bunch parsley, leaves roughly chopped, to serve"
+            ],
+            "method": [
+                "Step1: Heat 2 tbsp of the oil in a saucepan over a medium heat. Fry the onion with a pinch of salt for 7 mins. Add the garlic, chilli and rosemary, and cook for 1 min more. Tip in the tomatoes and sugar, and simmer for 20 mins.",
+                "Step2: Heat the remaining oil in a medium frying pan over a medium heat. Squeeze the sausagemeat from the skins and fry, breaking it up with a wooden spoon, for 5-7 mins until golden. Add to the sauce with the milk and lemon zest, then simmer for a further 5 mins. To freeze, leave to cool completely and transfer to large freezerproof bags.",
+                "Step3: Cook the pasta following pack instructions. Drain and toss with the sauce. Scatter over the parmesan and parsley leaves to serve."
+            ],
+            "preptime":[
+                0,0,0,0,0,0,5,0,0,0
+            ],
+            "cooktime": [
+                0,0,0,0,0,0,45,0,0,0
+            ],
+            "nutrition": [
+                "kcal:589",
+                "fat:18g",
+                "saturates:5g",
+                "carbs:83g",
+                "sugars:18g",
+                "fibre:8g",
+                "protein:19g",
+                "salt:0.5g"
+            ]
+        },
+        {  
+            "id": 3,
+            "image": "./Assets/images/easyroastbeef.png",
+            "name" : "Easy roast beef",
+            "ingredients": ["1 tsp plain flour",
+            "1 tsp mustard powder",
+            "950g beef top rump joint (see tip below)",
+            "1 onion, cut into 8 wedges",
+            "500g carrots, halved lengthways",
+            "For the gravy:","1 tbsp plain flour",
+            "250ml beef stock"
+           ],
+           "method": [
+               "Step1: Heat oven to 240C/220C fan/gas 9",
+               "Step2: Mix 1 tsp plain flour and 1 tsp mustard powder with some seasoning, then rub all over the 950g beef top rump joint.",
+               "Step3: Put 1 onion, cut into 8 wedges, and 500g carrots, halved lengthways, into a roasting tin and sit the beef on top, then cook for 20 mins.",
+               "Step4: Reduce oven to 190C/170C fan/gas 5 and continue to cook the beef for 30 mins if you like it rare, 40 mins for medium and 1 hr for well done.",
+               "Step5: Remove the beef and carrots from the oven, place onto warm plates or platters and cover with foil to keep warm.",
+               "Step6: Let the beef rest for 30 mins while you turn up the oven to cook your Yorkshire puds and finish the potatoes.",
+               "Step7: For the gravy, put the tin with all the meat juices and onions back onto the hob.",
+               "Step8: Stir in 1 tbsp plain flour, scraping all the stuck bits off the bottom of the tin. Cook for 30 seconds, then slowly stir in 250ml beef stock, little by little.",
+               "Step9: Bubble to a nice gravy, season, then serve with the beef, carved into slices, carrots and all the other trimmings."
+           ],
+           "preptime":[
+               0,0,0,0,0,0,15,0,0,0
+           ],
+           "cooktime": [
+               0,0,0,0,0,0,60,0,0,0
+           ],
+           "nutrition": [
+               "kcal:546",
+               "fat:32g",
+               "saturates:14g",
+               "carbs:15g",
+               "sugars:11g",
+               "fibre:4g",
+               "protein:52g",
+               "salt:0.65g"
+           ]
+       }
+
+]
