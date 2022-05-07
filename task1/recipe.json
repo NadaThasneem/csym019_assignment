@@ -1,7 +1,7 @@
 [
     {
      "id": 1,
-     "image": "",
+     "image": "./images/onepanpasta.png",
      "name" : "One-pan pasta",
      "ingredients": ["1 tbsp rapeseed oil",
                     "12 meatballs (300g)",
@@ -34,7 +34,7 @@
         },
         {  
              "id": 2,
-             "image": "",
+             "image": "./images/sausageragu.png",
              "name" : "Sausage ragu",
              "ingredients": ["3 tbsp olive oil",
                 "1 onion, finely chopped",
@@ -73,7 +73,7 @@
         },
         {  
             "id": 3,
-            "image": "./Assets/images/easyroastbeef.png",
+            "image": "./images/easyroastbeef.png",
             "name" : "Easy roast beef",
             "ingredients": ["1 tsp plain flour",
             "1 tsp mustard powder",

@@ -1,0 +1,70 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "array",
+    "items": [
+      {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "image": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "ingredients": {
+            "type": "array",
+            "items": [
+              {
+                "type": "string"
+              }
+            ]
+          },
+          "method": {
+            "type": "array",
+            "items": [
+              {
+                "type": "string"
+              }
+            ]
+          },
+          "preptime": {
+            "type": "array",
+            "items": [
+              {
+                "type": "integer"
+              }
+            ]
+          },
+          "cooktime": {
+            "type": "array",
+            "items": [
+              {
+                "type": "integer"
+              }
+            ]
+          },
+          "nutrition": {
+            "type": "array",
+            "items": [
+              {
+                "type": "string"
+              }
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "image",
+          "name",
+          "ingredients",
+          "method",
+          "preptime",
+          "cooktime",
+          "nutrition"
+        ]
+      }
+    ]
+  }
