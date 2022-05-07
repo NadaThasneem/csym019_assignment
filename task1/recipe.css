@@ -1,0 +1,10 @@
+body {
+    background-color: rgba(98, 99, 103, 0.849);
+    text-align: center;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
