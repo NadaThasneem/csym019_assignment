@@ -71,45 +71,175 @@
                 "salt:0.5g"
             ]
         },
-        {  
-            "id": 3,
-            "image": "./images/easyroastbeef.png",
-            "name" : "Easy roast beef",
-            "ingredients": ["1 tsp plain flour",
-            "1 tsp mustard powder",
-            "950g beef top rump joint (see tip below)",
-            "1 onion, cut into 8 wedges",
-            "500g carrots, halved lengthways",
-            "For the gravy:","1 tbsp plain flour",
-            "250ml beef stock"
-           ],
-           "method": [
-               "Step1: Heat oven to 240C/220C fan/gas 9",
-               "Step2: Mix 1 tsp plain flour and 1 tsp mustard powder with some seasoning, then rub all over the 950g beef top rump joint.",
-               "Step3: Put 1 onion, cut into 8 wedges, and 500g carrots, halved lengthways, into a roasting tin and sit the beef on top, then cook for 20 mins.",
-               "Step4: Reduce oven to 190C/170C fan/gas 5 and continue to cook the beef for 30 mins if you like it rare, 40 mins for medium and 1 hr for well done.",
-               "Step5: Remove the beef and carrots from the oven, place onto warm plates or platters and cover with foil to keep warm.",
-               "Step6: Let the beef rest for 30 mins while you turn up the oven to cook your Yorkshire puds and finish the potatoes.",
-               "Step7: For the gravy, put the tin with all the meat juices and onions back onto the hob.",
-               "Step8: Stir in 1 tbsp plain flour, scraping all the stuck bits off the bottom of the tin. Cook for 30 seconds, then slowly stir in 250ml beef stock, little by little.",
-               "Step9: Bubble to a nice gravy, season, then serve with the beef, carved into slices, carrots and all the other trimmings."
-           ],
-           "preptime":[
-               0,0,0,0,0,0,15,0,0,0
-           ],
-           "cooktime": [
-               0,0,0,0,0,0,60,0,0,0
-           ],
-           "nutrition": [
-               "kcal:546",
-               "fat:32g",
-               "saturates:14g",
-               "carbs:15g",
-               "sugars:11g",
-               "fibre:4g",
-               "protein:52g",
-               "salt:0.65g"
-           ]
-       }
+       {  
+        "id": 3,
+        "image": "./images/easyroastbeef.png",
+        "name" : "Easy roast beef",
+        "ingredients": ["1 tsp plain flour",
+        "1 tsp mustard powder",
+        "950g beef top rump joint (see tip below)",
+        "1 onion, cut into 8 wedges",
+        "500g carrots, halved lengthways",
+        "For the gravy:","1 tbsp plain flour",
+        "250ml beef stock"
+       ],
+       "method": [
+           "Step1: Heat oven to 240C/220C fan/gas 9",
+           "Step2: Mix 1 tsp plain flour and 1 tsp mustard powder with some seasoning, then rub all over the 950g beef top rump joint.",
+           "Step3: Put 1 onion, cut into 8 wedges, and 500g carrots, halved lengthways, into a roasting tin and sit the beef on top, then cook for 20 mins.",
+           "Step4: Reduce oven to 190C/170C fan/gas 5 and continue to cook the beef for 30 mins if you like it rare, 40 mins for medium and 1 hr for well done.",
+           "Step5: Remove the beef and carrots from the oven, place onto warm plates or platters and cover with foil to keep warm.",
+           "Step6: Let the beef rest for 30 mins while you turn up the oven to cook your Yorkshire puds and finish the potatoes.",
+           "Step7: For the gravy, put the tin with all the meat juices and onions back onto the hob.",
+           "Step8: Stir in 1 tbsp plain flour, scraping all the stuck bits off the bottom of the tin. Cook for 30 seconds, then slowly stir in 250ml beef stock, little by little.",
+           "Step9: Bubble to a nice gravy, season, then serve with the beef, carved into slices, carrots and all the other trimmings."
+       ],
+       "preptime":[
+           0,0,0,0,0,0,15,0,0,0
+       ],
+       "cooktime": [
+           0,0,0,0,0,0,60,0,0,0
+       ],
+       "nutrition": [
+           "kcal:546",
+           "fat:32g",
+           "saturates:14g",
+           "carbs:15g",
+           "sugars:11g",
+           "fibre:4g",
+           "protein:52g",
+           "salt:0.65g"
+       ]
+   },
+   {  
+    "id": 4,
+    "image": "./images/potroastedbeefbrisket.png",
+    "name" : "Pot-roasted beef brisket",
+    "ingredients": ["1-1¼kg/2¼-2¾ lb boned and rolled beef brisket",
+    "5 tbsp vegetable oil",
+    "large knob of butter",
+    "2 large onions, halved and sliced",
+    "2-3 celery sticks, finely chopped",
+    "2 carrots, sliced",
+    "200-250g/8-9oz large flat mushrooms, stalks chopped and heads thinly sliced",
+    "500-550ml bottle brown ale or stout",
+    "a few fresh thyme sprigs",
+    "2 bay leaves",
+    "1-2 tsp light muscovado sugar",
+    "500g parsnips, cut into wedges",
+    "1 tbsp Dijon mustard",
+    "chopped fresh parsley or thyme to serve"
+   ],
+   "method": [
+       "Step1: Preheat the oven to 190C/Gas 5/fan oven 170C. Wash and dry brisket and season. Heat 2 tablespoons of oil in a deep casserole and brown beef all over. Remove from pan. Turn down heat, add butter and fry the onions, celery, carrots and mushroom stalks for 6-8 minutes.",
+       "Step2: Return beef to pan and add beer, thyme, bay leaves and sugar. Add water if necessary so the liquid comes about two-thirds up the beef. Season, bring to a simmer, cover tightly, and cook in the oven for 20 minutes. Reduce heat to 160C/Gas 3/fan oven 140C and cook for 2 hours, turning twice, until tender",
+       "Step3: An hour before the beef is done, toss the parsnips in oil, season and roast on a baking tray above the beef for 50 mins - 1 hr until tender, turning once.",
+       "Step4: Turn oven up to 190C/Gas 5/fan oven 170C. Lift out the beef, tent with foil and keep warm. Stir the parsnips and mushroom caps into the beef juices. Check seasoning; add water if needed. Cover and cook in the oven for 20-25 minutes until mushrooms are tender.",
+       "Step5: To serve, use a slotted spoon to remove vegetables and arrange round the beef. Spoon off the excess fat from the juices, then whisk in the mustard and pour into a jug. Moisten the beef with a little juice and scatter with parsley or thyme"
+   ],
+   "preptime":[
+       0,0,0,0,0,0,25,0,0,0
+   ],
+   "cooktime": [
+       0,0,0,0,0,0,135,0,0,0
+   ],
+   "nutrition": [
+       "kcal:575",
+       "fat:39g",
+       "saturates:14g",
+       "carbs:20g",
+       "sugars:1g",
+       "fibre:5g",
+       "protein:34g",
+       "salt:0.53g"
+   ]
+   },
+    {  
+    "id": 5,
+    "image": "./images/chickensataysalad.png",
+    "name" : "Chicken satay salad",
+    "ingredients": ["1tbsp tamari",
+    "1tsp medium curry powder",
+    "¼tsp ground cumin",
+    "1 garlic clove, finely grated",
+    "1tsp clear honey",
+    "2 skinless chicken breast fillets (or use turkey breast)",
+    "1tbsp crunchy peanut butter (choose a sugar-free version with no palm oil, if possible)",
+    "1tbsp sweet chilli sauce",
+    "1tbsp lime juice",
+    "sunflower oil, for wiping the pan",
+    "2 Little Gem lettuce hearts, cut into wedges",
+    "¼ cucumber, halved and sliced",
+    "1 banana shallot, halved and thinly sliced",
+    "coriander, chopped",
+    "seeds from ½ pomegranate"
+   ],
+   "method": [
+       "Step1: Pour the tamari into a large dish and stir in the curry powder, cumin, garlic and honey. Mix well. Slice the chicken breasts in half horizontally to make 4 fillets in total, then add to the marinade and mix well to coat. Set aside in the fridge for at least 1 hr, or overnight, to allow the flavours to penetrate the chicken.",
+       "Step2: Meanwhile, mix the peanut butter with the chilli sauce, lime juice, and 1 tbsp water to make a spoonable sauce. When ready to cook the chicken, wipe a large non-stick frying pan with a little oil. Add the chicken and cook, covered with a lid, for 5-6 mins on a medium heat, turning the fillets over for the last min, until cooked but still moist. Set aside, covered, to rest for a few mins.",
+       "Step3: While the chicken rests, toss the lettuce wedges with the cucumber, shallot, coriander and pomegranate, and pile onto plates. Spoon over a little sauce. Slice the chicken, pile on top of the salad and spoon over the remaining sauce. Eat while the chicken is still warm."
+   ],
+   "preptime":[
+       0,0,0,0,0,0,15,0,0,0
+   ],
+   "cooktime": [
+       0,0,0,0,0,0,10,0,0,0
+   ],
+   "nutrition": [
+       "kcal:353",
+       "fat:10g",
+       "saturates:2g",
+       "carbs:24g",
+       "sugars:21g",
+       "fibre:7g",
+       "protein:38g",
+       "salt:1.6g"
+   ]
+   },
+    {  
+    "id": 6,
+    "image": "./images/chickensataysalad.png",
+    "name" : "Chicken satay salad",
+    "ingredients": ["1tbsp tamari",
+    "1tsp medium curry powder",
+    "¼tsp ground cumin",
+    "1 garlic clove, finely grated",
+    "1tsp clear honey",
+    "2 skinless chicken breast fillets (or use turkey breast)",
+    "1tbsp crunchy peanut butter (choose a sugar-free version with no palm oil, if possible)",
+    "1tbsp sweet chilli sauce",
+    "1tbsp lime juice",
+    "sunflower oil, for wiping the pan",
+    "2 Little Gem lettuce hearts, cut into wedges",
+    "¼ cucumber, halved and sliced",
+    "1 banana shallot, halved and thinly sliced",
+    "coriander, chopped",
+    "seeds from ½ pomegranate"
+   ],
+   "method": [
+       "Step1: Pour the tamari into a large dish and stir in the curry powder, cumin, garlic and honey. Mix well. Slice the chicken breasts in half horizontally to make 4 fillets in total, then add to the marinade and mix well to coat. Set aside in the fridge for at least 1 hr, or overnight, to allow the flavours to penetrate the chicken.",
+       "Step2: Meanwhile, mix the peanut butter with the chilli sauce, lime juice, and 1 tbsp water to make a spoonable sauce. When ready to cook the chicken, wipe a large non-stick frying pan with a little oil. Add the chicken and cook, covered with a lid, for 5-6 mins on a medium heat, turning the fillets over for the last min, until cooked but still moist. Set aside, covered, to rest for a few mins.",
+       "Step3: While the chicken rests, toss the lettuce wedges with the cucumber, shallot, coriander and pomegranate, and pile onto plates. Spoon over a little sauce. Slice the chicken, pile on top of the salad and spoon over the remaining sauce. Eat while the chicken is still warm."
+   ],
+   "preptime":[
+       0,0,0,0,0,0,15,0,0,0
+   ],
+   "cooktime": [
+       0,0,0,0,0,0,10,0,0,0
+   ],
+   "nutrition": [
+       "kcal:353",
+       "fat:10g",
+       "saturates:2g",
+       "carbs:24g",
+       "sugars:21g",
+       "fibre:7g",
+       "protein:38g",
+       "salt:1.6g"
+   ]
+   }
+
+
+
 
 ]
