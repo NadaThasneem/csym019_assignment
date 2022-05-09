@@ -53,6 +53,9 @@ function readTextFile(){
   }
 
 
+  $(document).ready(function() {
+    readTextFile()
+});
 
 $(document).ready(function() {
     setInterval(readTextFile, 5000);
