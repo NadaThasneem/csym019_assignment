@@ -14,6 +14,9 @@
           "name": {
             "type": "string"
           },
+          "author":{
+            "type": "string"
+          },
           "ingredients": {
             "type": "array",
             "items": [
@@ -31,20 +34,10 @@
             ]
           },
           "preptime": {
-            "type": "array",
-            "items": [
-              {
-                "type": "integer"
-              }
-            ]
+            "type": "integer"
           },
           "cooktime": {
-            "type": "array",
-            "items": [
-              {
-                "type": "integer"
-              }
-            ]
+            "type": "integer"
           },
           "nutrition": {
             "type": "array",

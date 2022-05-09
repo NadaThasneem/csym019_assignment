@@ -3,6 +3,7 @@
      "id": 1,
      "image": "./images/onepanpasta.png",
      "name" : "One-pan pasta",
+     "author":"Liberty Mendez",
      "ingredients": ["1 tbsp rapeseed oil",
                     "12 meatballs (300g)",
                     "1 onion, finely chopped",
@@ -12,15 +13,11 @@
                     "1 large bunch of basil, finely chopped, plus a few whole leaves",
                     "225g dried spaghetti" ],
     "method": [
-        "Step1: Heat the oil in a deep, wide frying pan or casserole dish over a medium-high heat. Tip in the meatballs and cook for 5 mins, turning until browned all over. Add the onion and garlic, and fry for 8 more mins until softened.",
-        "Step2: Add the ketchup, chopped tomatoes, chopped basil and 400ml water to the pan and bring to the boil. Add the spaghetti and cook for 10-12 mins, stirring occasionally. When the pasta is cooked and the sauce has reduced, season and sprinkle with the basil leaves to serve."
+        "Heat the oil in a deep, wide frying pan or casserole dish over a medium-high heat. Tip in the meatballs and cook for 5 mins, turning until browned all over. Add the onion and garlic, and fry for 8 more mins until softened.",
+        "Add the ketchup, chopped tomatoes, chopped basil and 400ml water to the pan and bring to the boil. Add the spaghetti and cook for 10-12 mins, stirring occasionally. When the pasta is cooked and the sauce has reduced, season and sprinkle with the basil leaves to serve."
     ],
-    "preptime":[
-        0,0,0,0,0,0,5,0,0,0
-    ],
-    "cooktime": [
-        0,0,0,0,0,0,30,0,0,0
-    ],
+    "preptime":5,
+    "cooktime": 30,
     "nutrition": [
         "kcal:477",
         "fat:13g",
@@ -36,6 +33,7 @@
              "id": 2,
              "image": "./images/sausageragu.png",
              "name" : "Sausage ragu",
+             "author":"Esther Clark",
              "ingredients": ["3 tbsp olive oil",
                 "1 onion, finely chopped",
                 "2 large garlic cloves, crushed",
@@ -50,16 +48,12 @@
                 "grated parmesan and ½ small bunch parsley, leaves roughly chopped, to serve"
             ],
             "method": [
-                "Step1: Heat 2 tbsp of the oil in a saucepan over a medium heat. Fry the onion with a pinch of salt for 7 mins. Add the garlic, chilli and rosemary, and cook for 1 min more. Tip in the tomatoes and sugar, and simmer for 20 mins.",
-                "Step2: Heat the remaining oil in a medium frying pan over a medium heat. Squeeze the sausagemeat from the skins and fry, breaking it up with a wooden spoon, for 5-7 mins until golden. Add to the sauce with the milk and lemon zest, then simmer for a further 5 mins. To freeze, leave to cool completely and transfer to large freezerproof bags.",
-                "Step3: Cook the pasta following pack instructions. Drain and toss with the sauce. Scatter over the parmesan and parsley leaves to serve."
+                "Heat 2 tbsp of the oil in a saucepan over a medium heat. Fry the onion with a pinch of salt for 7 mins. Add the garlic, chilli and rosemary, and cook for 1 min more. Tip in the tomatoes and sugar, and simmer for 20 mins.",
+                "Heat the remaining oil in a medium frying pan over a medium heat. Squeeze the sausagemeat from the skins and fry, breaking it up with a wooden spoon, for 5-7 mins until golden. Add to the sauce with the milk and lemon zest, then simmer for a further 5 mins. To freeze, leave to cool completely and transfer to large freezerproof bags.",
+                "Cook the pasta following pack instructions. Drain and toss with the sauce. Scatter over the parmesan and parsley leaves to serve."
             ],
-            "preptime":[
-                0,0,0,0,0,0,5,0,0,0
-            ],
-            "cooktime": [
-                0,0,0,0,0,0,45,0,0,0
-            ],
+            "preptime":5,
+            "cooktime": 45,
             "nutrition": [
                 "kcal:589",
                 "fat:18g",
@@ -75,6 +69,7 @@
         "id": 3,
         "image": "./images/easyroastbeef.png",
         "name" : "Easy roast beef",
+        "author":"James Martin",
         "ingredients": ["1 tsp plain flour",
         "1 tsp mustard powder",
         "950g beef top rump joint (see tip below)",
@@ -84,22 +79,18 @@
         "250ml beef stock"
        ],
        "method": [
-           "Step1: Heat oven to 240C/220C fan/gas 9",
-           "Step2: Mix 1 tsp plain flour and 1 tsp mustard powder with some seasoning, then rub all over the 950g beef top rump joint.",
-           "Step3: Put 1 onion, cut into 8 wedges, and 500g carrots, halved lengthways, into a roasting tin and sit the beef on top, then cook for 20 mins.",
-           "Step4: Reduce oven to 190C/170C fan/gas 5 and continue to cook the beef for 30 mins if you like it rare, 40 mins for medium and 1 hr for well done.",
-           "Step5: Remove the beef and carrots from the oven, place onto warm plates or platters and cover with foil to keep warm.",
-           "Step6: Let the beef rest for 30 mins while you turn up the oven to cook your Yorkshire puds and finish the potatoes.",
-           "Step7: For the gravy, put the tin with all the meat juices and onions back onto the hob.",
-           "Step8: Stir in 1 tbsp plain flour, scraping all the stuck bits off the bottom of the tin. Cook for 30 seconds, then slowly stir in 250ml beef stock, little by little.",
-           "Step9: Bubble to a nice gravy, season, then serve with the beef, carved into slices, carrots and all the other trimmings."
+           "Heat oven to 240C/220C fan/gas 9",
+           "Mix 1 tsp plain flour and 1 tsp mustard powder with some seasoning, then rub all over the 950g beef top rump joint.",
+           "Put 1 onion, cut into 8 wedges, and 500g carrots, halved lengthways, into a roasting tin and sit the beef on top, then cook for 20 mins.",
+           "Reduce oven to 190C/170C fan/gas 5 and continue to cook the beef for 30 mins if you like it rare, 40 mins for medium and 1 hr for well done.",
+           "Remove the beef and carrots from the oven, place onto warm plates or platters and cover with foil to keep warm.",
+           "Let the beef rest for 30 mins while you turn up the oven to cook your Yorkshire puds and finish the potatoes.",
+           "For the gravy, put the tin with all the meat juices and onions back onto the hob.",
+           "Stir in 1 tbsp plain flour, scraping all the stuck bits off the bottom of the tin. Cook for 30 seconds, then slowly stir in 250ml beef stock, little by little.",
+           "Bubble to a nice gravy, season, then serve with the beef, carved into slices, carrots and all the other trimmings."
        ],
-       "preptime":[
-           0,0,0,0,0,0,15,0,0,0
-       ],
-       "cooktime": [
-           0,0,0,0,0,0,60,0,0,0
-       ],
+       "preptime":15,
+       "cooktime": 60,
        "nutrition": [
            "kcal:546",
            "fat:32g",
@@ -115,6 +106,7 @@
     "id": 4,
     "image": "./images/potroastedbeefbrisket.png",
     "name" : "Pot-roasted beef brisket",
+    "author":"Good Food team",
     "ingredients": ["1-1¼kg/2¼-2¾ lb boned and rolled beef brisket",
     "5 tbsp vegetable oil",
     "large knob of butter",
@@ -131,18 +123,14 @@
     "chopped fresh parsley or thyme to serve"
    ],
    "method": [
-       "Step1: Preheat the oven to 190C/Gas 5/fan oven 170C. Wash and dry brisket and season. Heat 2 tablespoons of oil in a deep casserole and brown beef all over. Remove from pan. Turn down heat, add butter and fry the onions, celery, carrots and mushroom stalks for 6-8 minutes.",
-       "Step2: Return beef to pan and add beer, thyme, bay leaves and sugar. Add water if necessary so the liquid comes about two-thirds up the beef. Season, bring to a simmer, cover tightly, and cook in the oven for 20 minutes. Reduce heat to 160C/Gas 3/fan oven 140C and cook for 2 hours, turning twice, until tender",
-       "Step3: An hour before the beef is done, toss the parsnips in oil, season and roast on a baking tray above the beef for 50 mins - 1 hr until tender, turning once.",
-       "Step4: Turn oven up to 190C/Gas 5/fan oven 170C. Lift out the beef, tent with foil and keep warm. Stir the parsnips and mushroom caps into the beef juices. Check seasoning; add water if needed. Cover and cook in the oven for 20-25 minutes until mushrooms are tender.",
-       "Step5: To serve, use a slotted spoon to remove vegetables and arrange round the beef. Spoon off the excess fat from the juices, then whisk in the mustard and pour into a jug. Moisten the beef with a little juice and scatter with parsley or thyme"
+       "Preheat the oven to 190C/Gas 5/fan oven 170C. Wash and dry brisket and season. Heat 2 tablespoons of oil in a deep casserole and brown beef all over. Remove from pan. Turn down heat, add butter and fry the onions, celery, carrots and mushroom stalks for 6-8 minutes.",
+       "Return beef to pan and add beer, thyme, bay leaves and sugar. Add water if necessary so the liquid comes about two-thirds up the beef. Season, bring to a simmer, cover tightly, and cook in the oven for 20 minutes. Reduce heat to 160C/Gas 3/fan oven 140C and cook for 2 hours, turning twice, until tender",
+       "An hour before the beef is done, toss the parsnips in oil, season and roast on a baking tray above the beef for 50 mins - 1 hr until tender, turning once.",
+       "Turn oven up to 190C/Gas 5/fan oven 170C. Lift out the beef, tent with foil and keep warm. Stir the parsnips and mushroom caps into the beef juices. Check seasoning; add water if needed. Cover and cook in the oven for 20-25 minutes until mushrooms are tender.",
+       "To serve, use a slotted spoon to remove vegetables and arrange round the beef. Spoon off the excess fat from the juices, then whisk in the mustard and pour into a jug. Moisten the beef with a little juice and scatter with parsley or thyme"
    ],
-   "preptime":[
-       0,0,0,0,0,0,25,0,0,0
-   ],
-   "cooktime": [
-       0,0,0,0,0,0,135,0,0,0
-   ],
+   "preptime":25,
+   "cooktime": 135,
    "nutrition": [
        "kcal:575",
        "fat:39g",
@@ -158,6 +146,7 @@
     "id": 5,
     "image": "./images/chickensataysalad.png",
     "name" : "Chicken satay salad",
+    "author":"Sara Buenfeld",
     "ingredients": ["1tbsp tamari",
     "1tsp medium curry powder",
     "¼tsp ground cumin",
@@ -175,16 +164,12 @@
     "seeds from ½ pomegranate"
    ],
    "method": [
-       "Step1: Pour the tamari into a large dish and stir in the curry powder, cumin, garlic and honey. Mix well. Slice the chicken breasts in half horizontally to make 4 fillets in total, then add to the marinade and mix well to coat. Set aside in the fridge for at least 1 hr, or overnight, to allow the flavours to penetrate the chicken.",
-       "Step2: Meanwhile, mix the peanut butter with the chilli sauce, lime juice, and 1 tbsp water to make a spoonable sauce. When ready to cook the chicken, wipe a large non-stick frying pan with a little oil. Add the chicken and cook, covered with a lid, for 5-6 mins on a medium heat, turning the fillets over for the last min, until cooked but still moist. Set aside, covered, to rest for a few mins.",
-       "Step3: While the chicken rests, toss the lettuce wedges with the cucumber, shallot, coriander and pomegranate, and pile onto plates. Spoon over a little sauce. Slice the chicken, pile on top of the salad and spoon over the remaining sauce. Eat while the chicken is still warm."
+       "Pour the tamari into a large dish and stir in the curry powder, cumin, garlic and honey. Mix well. Slice the chicken breasts in half horizontally to make 4 fillets in total, then add to the marinade and mix well to coat. Set aside in the fridge for at least 1 hr, or overnight, to allow the flavours to penetrate the chicken.",
+       "Meanwhile, mix the peanut butter with the chilli sauce, lime juice, and 1 tbsp water to make a spoonable sauce. When ready to cook the chicken, wipe a large non-stick frying pan with a little oil. Add the chicken and cook, covered with a lid, for 5-6 mins on a medium heat, turning the fillets over for the last min, until cooked but still moist. Set aside, covered, to rest for a few mins.",
+       "While the chicken rests, toss the lettuce wedges with the cucumber, shallot, coriander and pomegranate, and pile onto plates. Spoon over a little sauce. Slice the chicken, pile on top of the salad and spoon over the remaining sauce. Eat while the chicken is still warm."
    ],
-   "preptime":[
-       0,0,0,0,0,0,15,0,0,0
-   ],
-   "cooktime": [
-       0,0,0,0,0,0,10,0,0,0
-   ],
+   "preptime":15,
+   "cooktime": 10,
    "nutrition": [
        "kcal:353",
        "fat:10g",
@@ -198,47 +183,484 @@
    },
     {  
     "id": 6,
-    "image": "./images/chickensataysalad.png",
-    "name" : "Chicken satay salad",
-    "ingredients": ["1tbsp tamari",
-    "1tsp medium curry powder",
-    "¼tsp ground cumin",
-    "1 garlic clove, finely grated",
-    "1tsp clear honey",
-    "2 skinless chicken breast fillets (or use turkey breast)",
-    "1tbsp crunchy peanut butter (choose a sugar-free version with no palm oil, if possible)",
-    "1tbsp sweet chilli sauce",
-    "1tbsp lime juice",
-    "sunflower oil, for wiping the pan",
-    "2 Little Gem lettuce hearts, cut into wedges",
-    "¼ cucumber, halved and sliced",
-    "1 banana shallot, halved and thinly sliced",
-    "coriander, chopped",
-    "seeds from ½ pomegranate"
+    "image": "./images/pomegranatechicken.png",
+    "name" : "Pomegranate chicken with almond couscous",
+    "author":"Cassie Best",
+    "ingredients": [
+        "1½ tbsp sunflower or vegetable oil",
+        "2 eggs , beaten",
+        "2 garlic cloves , crushed",
+        "small bunch of spring onions , chopped",
+        "1⁄2 tsp Chinese five-spice powder",
+        "400g cooked long-grain rice",
+        "85g frozen peas",
+        "2 tsp sesame oil",
+        "2 tbsp low-salt soy sauce",
+        "400g fresh pineapple , roughly chopped into chunks (about 1⁄2 medium pineapple)"
    ],
    "method": [
-       "Step1: Pour the tamari into a large dish and stir in the curry powder, cumin, garlic and honey. Mix well. Slice the chicken breasts in half horizontally to make 4 fillets in total, then add to the marinade and mix well to coat. Set aside in the fridge for at least 1 hr, or overnight, to allow the flavours to penetrate the chicken.",
-       "Step2: Meanwhile, mix the peanut butter with the chilli sauce, lime juice, and 1 tbsp water to make a spoonable sauce. When ready to cook the chicken, wipe a large non-stick frying pan with a little oil. Add the chicken and cook, covered with a lid, for 5-6 mins on a medium heat, turning the fillets over for the last min, until cooked but still moist. Set aside, covered, to rest for a few mins.",
-       "Step3: While the chicken rests, toss the lettuce wedges with the cucumber, shallot, coriander and pomegranate, and pile onto plates. Spoon over a little sauce. Slice the chicken, pile on top of the salad and spoon over the remaining sauce. Eat while the chicken is still warm."
+       "1 Heat 1 tbsp oil in a wok. Add the eggs, swirling them up the sides, to make a thin omelette. Once cooked through, roll the omelette onto a chopping board and cut into ribbons.",
+       "Heat the remaining oil. Add the garlic, onions and five-spice. Stir-fry until sizzling, then add the rice (if using pouches, squeeze them first, to separate the grains), peas, sesame oil and soy. Cook over a high heat until the rice is hot, then stir through the pineapple and omelette ribbons."
+       
    ],
-   "preptime":[
-       0,0,0,0,0,0,15,0,0,0
-   ],
-   "cooktime": [
-       0,0,0,0,0,0,10,0,0,0
-   ],
+   "preptime":5,
+   "cooktime": 15,
    "nutrition": [
-       "kcal:353",
+       "kcal:301",
+       "fat:20g",
+       "saturates:2g",
+       "carbs:50g",
+       "sugars:14g",
+       "fibre:4g",
+       "protein:50g",
+       "salt:0.4g"
+   ]
+   },
+   {
+    "id": 7,
+    "image": "./images/pineapplefriedrice.png",
+    "name" : "Pineapple fried rice",
+    "author":"Cassie Best",
+    "ingredients": [
+        "1½ tbsp sunflower or vegetable oil",
+        "2 eggs , beaten",
+        "2 garlic cloves , crushed",
+        "small bunch of spring onions , chopped",
+        "1⁄2 tsp Chinese five-spice powder",
+        "400g cooked long-grain rice",
+        "85g frozen peas",
+        "2 tsp sesame oil",
+        "2 tbsp low-salt soy sauce",
+        "400g fresh pineapple , roughly chopped into chunks (about 1⁄2 medium pineapple)"
+   ],
+   "method": [
+       "1 Heat 1 tbsp oil in a wok. Add the eggs, swirling them up the sides, to make a thin omelette. Once cooked through, roll the omelette onto a chopping board and cut into ribbons.",
+       "Heat the remaining oil. Add the garlic, onions and five-spice. Stir-fry until sizzling, then add the rice (if using pouches, squeeze them first, to separate the grains), peas, sesame oil and soy. Cook over a high heat until the rice is hot, then stir through the pineapple and omelette ribbons."
+   ],
+   "preptime":10,
+   "cooktime": 10,
+   "nutrition": [
+       "kcal:301",
+       "fat:9g",
+       "saturates:2g",
+       "carbs:44g",
+       "sugars:13g",
+       "fibre:4g",
+       "protein:9g",
+       "salt:0.8g"
+   ]
+   },
+    {
+    "id": 8,
+    "image": "./images/chichennoodlessoup.png",
+    "name" : "Chicken noodle soup",
+    "author":"Mary Cadogan",
+    "ingredients": [
+        "900ml chicken or vegetable stock (or Miso soup mix)",
+        "1 boneless, skinless chicken breast (about 175g)",
+        "1 tsp chopped fresh ginger",
+        "1 garlic clove, finely chopped",
+        "50g rice or wheat noodles",
+        "2 tbsp sweetcorn, canned or frozen",
+        "2-3 mushrooms, thinly sliced",
+        "2 spring onions, shredded",
+        "2 tsp soy sauce, plus extra for serving",
+        "mint or basil leaves and a little shredded chilli (optional), to serve"
+   ],
+   "method": [
+       "Pour the stock into a pan and add the chicken breast, ginger and garlic. Bring to the boil, then reduce the heat, partly cover and simmer for 20 mins, until the chicken is tender.",
+       "Put the chicken on a board and shred into bite-size pieces using a couple of forks. Return the chicken to the stock with the noodles, sweetcorn, mushrooms, spring onion and soy sauce. Simmer for 3-4 mins until the noodles are tender.",
+       "Ladle into two bowls and scatter over the remaining spring onion, mint or basil leaves and chilli, if using. Serve with extra soy sauce."
+   ],
+   "preptime":10,
+   "cooktime": 30,
+   "nutrition": [
+       "kcal:217",
+       "fat:2g",
+       "saturates:0.4g",
+       "carbs:26g",
+       "sugars:1g",
+       "fibre:0.6g",
+       "protein:26g",
+       "salt:2.6g"
+   ]
+   },
+   {
+    "id": 9,
+    "image": "./images/pancakesforone.png",
+    "name" : "Pancakes for one",
+    "author":"Esther Clark",
+    "ingredients": [
+        "1 large egg",
+        "40g plain flour",
+        "½ tsp baking powder",
+        "45ml milk (dairy, nut or oat based)",
+        "1 tsp butter",
+        "½ tbsp oil",
+        "1 banana shallot, halved and thinly sliced"
+   ],
+   "method": [
+       "Separate the egg, putting the white and yolk in separate bowls. Mix the egg yolk with the flour, baking powder and milk to make a smooth paste.",
+       "Beat the egg white and a pinch of salt with an electric whisk (or by hand) until fluffy and holding its shape. Gently fold the egg white into the yolk mixture. Be extra careful not to knock any of the air out.",
+       "Heat the butter and oil in a non-stick frying pan. Dollop a third of the mixture into the pan and cook on each side for 1-2 mins or until golden brown. Repeat with the remaining mixture to make three pancakes. Drizzle over some maple syrup or honey and serve with berries, if you like."
+   ],
+   "preptime":10,
+   "cooktime":10,
+   "nutrition": [
+       "kcal:350",
+       "fat:17g",
+       "saturates:6g",
+       "carbs:33g",
+       "sugars:2g",
+       "fibre:2g",
+       "protein:14g",
+       "salt:1g"
+   ]
+   },
+   {
+    "id": 10,
+    "image": "./images/healthypastaprimaver.png",
+    "name" : "Healthy pasta primavera",
+    "author":"Good Food team",
+    "ingredients": [
+        "75g young broad beans (use frozen if you can't get fresh)",
+        "2 x 100g pack asparagus tips",
+        "170g peas (use frozen if you can't get fresh)",
+        "350g spaghetti or tagliatelle",
+        "175g pack baby leeks , trimmed and sliced",
+        "1 tbsp olive oil , plus extra to serve",
+        "1 tbsp butter",
+        "200ml tub fromage frais or creme fraiche",
+        "handful fresh chopped herbs (we used mint, parsley and chives)",
+        "parmesan (or vegetarian alternative), shaved, to serve"
+   ],
+   "method": [
+       "Bring a pan of salted water to the boil and put a steamer (or colander) over the water. Steam the beans, asparagus and peas until just tender, then set aside. Boil the pasta following pack instructions.",
+       "Meanwhile, fry the leeks gently in the oil and butter for 5 mins or until soft. Add the fromage frais to the leeks and very gently warm through, stirring constantly to ensure it doesn’t split. Add the herbs and steamed vegetables with a splash of pasta water to loosen.",
+       "Drain the pasta and stir into the sauce. Adjust the seasoning, then serve scattered with the cheese and drizzled with a little extra olive oil."
+   ],
+   "preptime":10,
+   "cooktime":20,
+   "nutrition": [
+       "kcal:476",
+       "fat:9g",
+       "saturates:3g",
+       "carbs:74g",
+       "sugars:6g",
+       "fibre:9g",
+       "protein:20g",
+       "salt:0.1g"
+   ]
+   },
+    {
+    "id": 11,
+    "image": "./images/curriedbroccoliboiledeggsontoast.png",
+    "name" : "Curried broccoli & boiled eggs on toast",
+    "author":"Sophie Godwin – Cookery writer",
+    "ingredients": [
+        "½ tsp turmeric",
+        "1 tsp garam masala",
+        "½ tbsp rapeseed oil",
+        "200g Tenderstem broccoli",
+        "2 medium eggs",
+        "2 slices wholemeal sourdough",
+        "1 tbsp natural yogurt",
+        "1 tbsp pomegranate seeds"
+   ],
+   "method": [
+       "Heat oven to 200C/180C/gas 6. Mix together the spices and oil, then toss with the broccoli and some seasoning on a baking tray. Roast for 12-15 mins until tender.",
+       "Meanwhile, bring a small pan of water to the boil, lower in the eggs and boil for 6-8 mins, depending on how you like them, then immediately rinse under cold water, peel and halve. Toast the bread, then spread with the yogurt. Top each slice with the roasted broccoli and an egg, then scatter over the pomegranate seeds."
+       
+   ],
+   "preptime":10,
+   "cooktime":15,
+   "nutrition": [
+       "kcal:258",
        "fat:10g",
        "saturates:2g",
-       "carbs:24g",
-       "sugars:21g",
+       "carbs:22g",
+       "sugars:5g",
        "fibre:7g",
-       "protein:38g",
-       "salt:1.6g"
+       "protein:17g",
+       "salt:0.7g"
+   ]
+   },
+     {
+    "id": 12,
+    "image": "./images/roastedradishes.png",
+    "name" : "Roasted radishes",
+    "author":"Sophie Godwin - Cookery writer",
+    "ingredients": [
+        "400g radishes",
+        " garlic cloves, unpeeled and bashed",
+        "1 tbsp rapeseed oil"
+   ],
+   "method": [
+       "Heat the oven to 200C/180C fan/ gas 6. Tip the radishes and bashed garlic cloves into a roasting tin, season well and drizzle with the oil. Toss to coat the radishes and garlic.",
+       "Roast for 30-40 mins, or until the radishes are tender. Squeeze the garlic from its skins, then stir gently and serve."
+    ],
+   "preptime":5,
+   "cooktime":35,
+   "nutrition": [
+       "kcal:30",
+       "fat:2g",
+       "saturates:0.2g",
+       "carbs:2g",
+       "sugars:1g",
+       "fibre:1g",
+       "protein:1g",
+       "salt:0.02g"
+   ]
+   },
+   {
+    "id": 13,
+    "image": "./images/Creamyspinachandmushroompenne.png",
+    "name" : "Creamy spinach & mushroom penne",
+    "author":"Sara Buenfeld",
+    "ingredients": [
+        "175g wholemeal penne",
+        "50g unroasted, unsalted cashews",
+        "10g dried porcini mushrooms",
+        "1 tsp vegetable bouillon powder",
+        "1 tbsp rapeseed oil",
+        "120g chestnut mushrooms, halved if large, thinly sliced",
+        "2 large garlic cloves, finely grated",
+        "200g baby spinach"
+   ],
+   "method": [
+       "Cook the penne following pack instructions and put the kettle on to boil. Meanwhile, put the cashews and dried mushrooms in a medium heatproof bowl along with the bouillon powder, and pour over 200ml boiling water from the kettle. Leave to soak for 5 mins. After this time, blitz the mixture with a hand blender until smooth and creamy.",
+       "Heat the oil in a large non-stick frying pan over a medium heat and fry the fresh mushrooms and garlic for a couple of minutes until just starting to soften. Add the spinach and continue to cook, stirring frequently until the spinach has wilted. Drain the pasta, reserving a little of the cooking water. Tip the pasta into the pan with the mushroom mixture, season with plenty of black pepper and toss everything together well. Remove from the heat and stir through the creamy mushroom sauce, adding a drop of the reserved cooking water if needed to loosen. Serve straightaway."
+    ],
+   "preptime":10,
+   "cooktime":10,
+   "nutrition": [
+       "kcal:483",
+       "fat:20g",
+       "saturates:3g",
+       "carbs:53g",
+       "sugars:3g",
+       "fibre:11g",
+       "protein:18g",
+       "salt:1.06g"
+   ]
+   },
+     {
+    "id": 14,
+    "image": "./images/warmspringvegetables.png",
+    "name" : "Warm spring vegetables",
+    "author":"James Martin",
+    "ingredients": [
+        "2 large courgettes , sliced into ribbons with a vegetable peeler",
+        "juice 1 lemon",
+        "200g asparagus spears , washed and trimmed",
+        "100g frozen peas",
+        "100g frozen broad beans",
+        "1 tbsp extra virgin olive oil",
+        "small pack parsley , roughly chopped"
+   ],
+   "method": [
+       "Put the courgette ribbons in a large bowl with a pinch of salt and the lemon juice..",
+       "Bring a large saucepan of water to the boil and cook the asparagus for 2 mins, adding the frozen peas and broad beans for the final min. Drain well, pod the broad beans and toss together with the courgette ribbons. Drizzle over the olive oil, sprinkle on parsley and season to taste."
+    ],
+   "preptime":20,
+   "cooktime":3,
+   "nutrition": [
+       "kcal:63",
+       "fat:2g",
+       "saturates:0g",
+       "carbs:4g",
+       "sugars:2g",
+       "fibre:4g",
+       "protein:4g",
+       "salt:0.1g"
+   ]
+   },
+      {
+    "id": 15,
+    "image": "./images/roastradishes.png",
+    "name" : "Simple roast radishes",
+    "author":"Tom Kerridge",
+    "ingredients": [
+        "450g radishes",
+        "2 tbsp olive oil"
+   ],
+   "method": [
+       "Heat oven to 180C/160C fan/gas 4. Remove the leaves from the radishes and if they are nice and fresh, set aside. Halve the radishes and tip into a roasting tin with the olive oil.",
+       "Roast for 20 mins until shrivelled and softened, then remove from the oven. Season with salt, toss with some of the leaves to wilt and serve."
+    ],
+   "preptime":5,
+   "cooktime":20,
+   "nutrition": [
+       "kcal:65",
+       "fat:6g",
+       "saturates:1g",
+       "carbs:2g",
+       "sugars:2g",
+       "fibre:1g",
+       "protein:1g",
+       "salt:0.1g"
+   ]
+   },
+  {
+    "id": 16,
+    "image": "./images/houmous.png",
+    "name" : "Pepper & walnut hummus with veggie dippers",
+    "author":"Sara Buenfeld",
+    "ingredients": [
+        "400g can chickpeas , drained",
+        "1 garlic clove",
+        "1 large roasted red pepper from a jar (not in oil), about 100g",
+        "1 tbsp tahini paste",
+        "juice ½ lemon",
+        "4 walnut halves , chopped",
+        "2 carrots , cut into batons",
+        "2 celery sticks, cut into batons"
+   ],
+   "method": [
+       "Put the chickpeas, garlic, pepper, tahini and lemon juice in a bowl. Blitz with a hand blender or in a food processor to make a thick purée. Stir in the walnuts. Pack into pots, if you like, and serve with the veggie sticks. Will keep in the fridge for two days, although the vegetables are best prepared fresh to preserve their vitamins."
+    ],
+   "preptime":10,
+   "cooktime":6,
+   "nutrition": [
+       "kcal:296",
+       "fat:14g",
+       "saturates:2g",
+       "carbs:30g",
+       "sugars:9g",
+       "fibre:12g",
+       "protein:14g",
+       "salt:0.8g"
+   ]
+   },
+   {
+    "id": 17,
+    "image": "./images/roastspicedduckwithplums.png",
+    "name" : "Roast spiced duck with plums",
+    "author":"Tom Kerridge",
+    "ingredients": [
+        "1 star anise",
+        "2 tbsp coriander seeds",
+        "4 tbsp muscovado sugar",
+        "2 ½kg whole duck",
+        "1 tsp olive oil",
+        "6 plums , halved and stoned",
+        "3 bay leaves",
+        "75ml red wine vinegar",
+        "300ml chicken stock"
+   ],
+   "method": [
+       "Heat oven to 160C/140C fan/gas 4. Toast the star anise and coriander seeds in a dry pan until aromatic. Tip the toasted spices into a spice grinder with 2 tsp sea salt and grind into a fine powder (or crush using a pestle and mortar). Put the spice salt in a bowl, add the sugar, mix well and set aside.",
+       "Lightly score the skin of the duck in a criss-cross pattern and heat the oil in a large casserole. Using a pair of tongs to turn it, brown the duck well on all sides, pour off the excess fat, then sit the duck breast-side up and season all over with the sugar and spice mix. Pack the plums around the outside, then scatter over the bay and pour over the vinegar and stock.",
+       "Roast in the oven for 2 hrs or until the duck is golden and the plums have broken down. Turn the oven right up for 10 more mins to crisp up the skin. Take the duck out of the pan to rest for 10 mins and spoon the excess fat off the plums. Carve the duck and serve with a good spoonful of plums."
+    ],
+   "preptime":35,
+   "cooktime":145,
+   "nutrition": [
+       "kcal:762",
+       "fat:59g",
+       "saturates:17g",
+       "carbs:22g",
+       "sugars:22g",
+       "fibre:4g",
+       "protein:33g",
+       "salt:2.9g"
+   ]
+   },
+      {
+    "id": 18,
+    "image": "./images/recipeimagelegacy.png",
+    "name" : "Best Yorkshire puddings",
+    "author":"Barney Desmazery",
+    "ingredients": [
+        "140g plain flour (this is about 200ml/7fl oz)",
+        "4 eggs (200ml/7fl oz)",
+        "200ml milk",
+        "sunflower oil , for cooking"
+   ],
+   "method": [
+       "Heat oven to 230C/fan 210C/gas 8.",
+       "Drizzle a little sunflower oil evenly into two 4-hole Yorkshire pudding tins or two 12-hole non-stick muffin tins and place in the oven to heat through.",
+       "To make the batter, tip 140g plain flour into a bowl and beat in 4 eggs until smooth.",
+       "Gradually add 200ml milk and carry on beating until the mix is completely lump-free. Season with salt and pepper.",
+       "Pour the batter into a jug, then remove the hot tins from the oven. Carefully and evenly pour the batter into the holes.",
+       "Place the tins back in the oven and leave undisturbed for 20-25 mins until the puddings have puffed up and browned.",
+       "Serve immediately. You can now cool them and freeze for up to 1 month."
+    ],
+   "preptime":5,
+   "cooktime":20,
+   "nutrition": [
+       "kcal:199",
+       "fat:13g",
+       "saturates:2g",
+       "carbs:15g",
+       "sugars:1g",
+       "fibre:0g",
+       "protein:6g",
+       "salt:0.12g"
+   ]
+   },
+    {
+    "id": 19,
+    "image": "./images/fondantpotatoes.png",
+    "name" : "Fondant potatoes",
+    "author":"Esther Clark",
+    "ingredients": [
+        "garlic cloves, unpeeled and bashed",
+        "1 tbsp olive oil",
+        "200g unsalted butter, cubed",
+        "4 large garlic cloves, bashed",
+        "2 sprigs rosemary",
+        "2 sprigs thyme",
+        "200ml chicken or vegetable stock"
+   ],
+   "method": [
+       "Slice the ends off the potatoes so they lie flat on either side.",
+       "Heat the oil in a pan over a medium-low heat. When hot, add the potatoes cut-side down. Fry for 5-7 mins, or until deep golden brown, then flip and fry on the other side. Add the butter to the pan to melt.",
+       "Scatter the garlic and herbs around the potatoes and season well. Carefully pour the stock around the veg, being aware of any hot butter that may splash out. Cover and simmer gently for 25-30 mins, or until the potatoes are tender, then serve."
+    ],
+   "preptime":8,
+   "cooktime":40,
+   "nutrition": [
+       "kcal:409",
+       "fat:29g",
+       "saturates:18g",
+       "carbs:30g",
+       "sugars:2g",
+       "fibre:3g",
+       "protein:4g",
+       "salt:0.2g"
+   ]
+   },
+     {
+    "id": 20,
+    "image": "./images/HasselbackPotatoes.png",
+    "name" : "Hasselback potatoes",
+    "author":"Anna Glover",
+    "ingredients": [
+        "1.5kg medium-sized floury potatoes (Maris piper or King Edward work well), peeled if you like",
+        "4 tbsp vegetable oil",
+        "4 garlic cloves, bashed",
+        "a few sprigs of rosemary",
+        "sea salt flakes"
+   ],
+   "method": [
+       "Heat the oven to 200C/180C fan/gas 6. Use a metal skewer and insert through the back of one of the flatter sides of the potato. It should go through most of the potato. Place on a chopping board, skewer-side down, and slice through the potato (be careful not to cut all the way through on both ends). You can also put each potato in-between two handles of wooden spoons, and cut through to the spoon, if this is easier for you. A sharp knife will help to make slices a few mm apart. Remove the skewer and repeat with the remaining potatoes.",
+       "Put the potatoes cut-side up on a shallow baking tray and drizzle over the oil. Rub each potato with your hands to coat well in the oil, getting some in between the slices. Toss in the bashed garlic, rosemary, and season well. Roast for 50 mins – 1 hr until the potatoes are tender throughout and the tops are golden and crisp. Baste with any oil in the pan halfway cooking to get extra crisp potatoes."
+    ],
+   "preptime":15,
+   "cooktime":60,
+   "nutrition": [
+       "kcal:394",
+       "fat:12g",
+       "saturates:1g",
+       "carbs:61g",
+       "sugars:4g",
+       "fibre:8g",
+       "protein:7g",
+       "salt:0.12g"
    ]
    }
-
+ 
 
 
 
