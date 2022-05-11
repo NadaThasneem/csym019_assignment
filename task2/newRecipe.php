@@ -40,7 +40,7 @@
         })
     });
 </script>
-    <form>
+    <form method="post" action="#">
         <label>Title</label>
         <input type="text"  name="title">
         <br>
@@ -104,6 +104,18 @@
         <label>Image</label>
         <input type="file" id="myFile" name="filename">
         <br>
-        <input type="submit">
+        <input type="submit" value="Submit">
     </form>
+
+    <?php
+        if(isset($_POST['title'])){
+            include 'dbcon.php';
+            // $con = OpenCon();
+            // $q="insert into"
+            // if ($con->query($q) === TRUE) {
+            //     echo $con->insert_id;
+            // }
+
+        }
+    ?>
 </body>
