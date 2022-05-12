@@ -110,11 +110,47 @@
     <?php
         if(isset($_POST['title'])){
             include 'dbcon.php';
-            // $con = OpenCon();
-            // $q="insert into"
-            // if ($con->query($q) === TRUE) {
-            //     echo $con->insert_id;
-            // }
+            $con = OpenCon();
+            try {
+                $con->beginTransaction();
+                $q="insert into recipe(title, author, ratings,preparation_time, cooking_time,serving, ingredients, methods) values(:title,:author,:ratings, :preparation_time, :cooking_time, :serving, :ingredients, :methods);";
+                $stmt=$con->prepare($q);
+                $values = [
+                    'title' => $_POST['title'],
+                    'author' => $_POST['author'],
+                    'ratings' => $_POST['ratings'],
+                    'preparation_time' => $_POST['preptime'],
+                    'cooking_time' => $_POST['cooktime'],
+                    'serving' => $_POST['serving'],
+                    'ingredients'=> "".json_encode($_POST['ingredients']),
+                    'methods' => "".json_encode($_POST['methods'])
+                   ];
+                   
+                $stmt->execute($values);
+    
+                $recipeid=$con->lastInsertId();
+                $q1 = "insert into nutritions (recipe_id, kcal, fat, saturates, carbs, sugars, fibre, protein, salt) values( :recipe_id, :kcal, :fat, :saturates, :carbs, :sugars, :fibre, :protein, :salt);";
+                $stmt1=$con->prepare($q1);
+                $values1 = [
+                    'recipe_id' => $recipeid,
+                    'kcal' => $_POST['kcal'],
+                    'fat' => $_POST['fat'],
+                    'saturates' => $_POST['saturates'],
+                    'carbs' => $_POST['carbs'],
+                    'sugars' => $_POST['sugars'],
+                    'fibre' => $_POST['fibre'],
+                    'protein' => $_POST['protein'],
+                    'salt' => $_POST['salt']
+                ];
+                $stmt1->execute($values1);
+                $con->commit();
+
+                echo "Recipe saved successfully."
+            } catch (\PDOException $e) {
+                $con->rollBack();
+                die($e->getMessage());
+            }
+
 
         }
     ?>
