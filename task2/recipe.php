@@ -8,8 +8,8 @@
 </head>
 
 <body class="bg-dark">
-
     <h1 class="recipe">RECIPE</h1>
+    <a href="logout.php" class="recipe">Sign Out of Your Account</a>
 
     <table class="table table-striped table-dark align-middle">
         <tr>
@@ -26,7 +26,7 @@
             <th scope="col">Calorie</th>
         </tr>
         <tbody id="data">
-            <form method='post' action='#'>
+            <form method='post' action='report.php'>
             <?php
                 
                 include 'dbcon.php';
@@ -39,7 +39,7 @@
                         // var_dump($r);
                         $count=$count+1;
                         $row="<tr>";
-                        $row.="<td><input type=\"checkbox\" id=\"".$r['id']."\" name=\"".$r['id']."\" value=\"".$r['id']."\"></td>";
+                        $row.="<td><input type=\"checkbox\" id=\"".$r['id']."\" name=\"recipe[]\" value=\"".$r['id']."\"></td>";
                         $row.="<td>$count</td>";
                         $row.="<td><img src=\"./images/houmous.png\" width=\"100\"vw height=\"100\"vh></td>";
                         $row.="<td>".$r['title']."</td>";
@@ -86,7 +86,7 @@
         </form>
         </tbody>
     </table>
-
+    
 
 </body>
 
