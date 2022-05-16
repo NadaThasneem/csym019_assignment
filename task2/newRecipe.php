@@ -145,7 +145,7 @@
                 $stmt1->execute($values1);
                 $con->commit();
                 CloseCon($con);
-                echo "Recipe saved successfully."
+                echo "Recipe saved successfully.";
             } catch (\PDOException $e) {
                 $con->rollBack();
                 die($e->getMessage());
