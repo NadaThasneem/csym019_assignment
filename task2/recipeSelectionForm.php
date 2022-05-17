@@ -110,7 +110,7 @@
             ?>
             </table>
             <div class="recipe-submit">
-                <input type="submit" value="Submit" class="recipesbt" >
+                <input type="submit" value="Create Recipe Report" class="recipesbt" >
             </div>
 
         </form>
