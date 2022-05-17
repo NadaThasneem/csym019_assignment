@@ -1,3 +1,10 @@
+<?php
+    session_start();
+    if(!(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"]) === true){
+        header("location: index.php");
+        exit;
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -86,7 +93,6 @@
                 include 'dbcon.php';
                 $con = OpenCon();
                 try {
-
                     $q1="SELECT * FROM recipe INNER JOIN nutritions ON recipe.id=nutritions.recipe_id WHERE nutritions.recipe_id IN (".trim(str_repeat(', ?', count($_POST['recipe'])), ', ').") ORDER BY title;";
                     $stmt=$con->prepare($q1);
                     $stmt->execute($_POST['recipe']);
@@ -98,7 +104,7 @@
                         $count=$count+1;
                         $row="<tr>";
                         $row.="<td>$count</td>";
-                        $row.="<td><img src=\"./images/".$r['image']."\" width=\"100\"vw height=\"100\"vh></td>";
+                        $row.="<td><img src=\"./images/houmous.png\" width=\"100\"vw height=\"100\"vh></td>";
                         $row.="<td>".$r['title']."</td>";
                         $row.="<td>".$r['author']."</td>";
                         $row.="<td>".$r['ratings']."</td>";

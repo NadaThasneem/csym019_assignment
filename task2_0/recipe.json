@@ -1,7 +1,7 @@
 [
     {
      "id": 1,
-     "image": "./images/onepanpasta.png",
+     "image": "onepanpasta.png",
      "name" : "One-pan pasta",
      "author":"Liberty Mendez",
      "ingredients": ["1 tbsp rapeseed oil",
@@ -27,11 +27,13 @@
         "fibre:5g",
         "protein:30g",
         "salt:0.7g"
-    ]
+    ],
+    "rating":6,
+    "serving":4
         },
         {  
              "id": 2,
-             "image": "./images/sausageragu.png",
+             "image": "sausageragu.png",
              "name" : "Sausage ragu",
              "author":"Esther Clark",
              "ingredients": ["3 tbsp olive oil",
@@ -63,11 +65,13 @@
                 "fibre:8g",
                 "protein:19g",
                 "salt:0.5g"
-            ]
+            ],
+            "rating":345,
+            "serving":4
         },
        {  
         "id": 3,
-        "image": "./images/easyroastbeef.png",
+        "image": "easyroastbeef.png",
         "name" : "Easy roast beef",
         "author":"James Martin",
         "ingredients": ["1 tsp plain flour",
@@ -100,11 +104,13 @@
            "fibre:4g",
            "protein:52g",
            "salt:0.65g"
-       ]
+       ],
+       "rating":77,
+       "serving":4
    },
    {  
     "id": 4,
-    "image": "./images/potroastedbeefbrisket.png",
+    "image": "potroastedbeefbrisket.png",
     "name" : "Pot-roasted beef brisket",
     "author":"Good Food team",
     "ingredients": ["1-1¼kg/2¼-2¾ lb boned and rolled beef brisket",
@@ -140,11 +146,13 @@
        "fibre:5g",
        "protein:34g",
        "salt:0.53g"
-   ]
+   ],
+   "rating":50,
+   "serving":8
    },
     {  
     "id": 5,
-    "image": "./images/chickensataysalad.png",
+    "image": "chickensataysalad.png",
     "name" : "Chicken satay salad",
     "author":"Sara Buenfeld",
     "ingredients": ["1tbsp tamari",
@@ -179,11 +187,13 @@
        "fibre:7g",
        "protein:38g",
        "salt:1.6g"
-   ]
+   ],
+   "rating":172,
+   "serving":2
    },
     {  
     "id": 6,
-    "image": "./images/pomegranatechicken.png",
+    "image": "pomegranatechicken.png",
     "name" : "Pomegranate chicken with almond couscous",
     "author":"Cassie Best",
     "ingredients": [
@@ -214,11 +224,13 @@
        "fibre:4g",
        "protein:50g",
        "salt:0.4g"
-   ]
+   ],
+   "rating":153,
+   "serving":4
    },
    {
     "id": 7,
-    "image": "./images/pineapplefriedrice.png",
+    "image": "pineapplefriedrice.png",
     "name" : "Pineapple fried rice",
     "author":"Cassie Best",
     "ingredients": [
@@ -248,11 +260,13 @@
        "fibre:4g",
        "protein:9g",
        "salt:0.8g"
-   ]
+   ],
+   "rating":34,
+   "serving":4
    },
     {
     "id": 8,
-    "image": "./images/chichennoodlessoup.png",
+    "image": "chichennoodlessoup.png",
     "name" : "Chicken noodle soup",
     "author":"Mary Cadogan",
     "ingredients": [
@@ -283,11 +297,13 @@
        "fibre:0.6g",
        "protein:26g",
        "salt:2.6g"
-   ]
+   ],
+   "rating":175,
+   "serving":2
    },
    {
     "id": 9,
-    "image": "./images/pancakesforone.png",
+    "image": "pancakesforone.png",
     "name" : "Pancakes for one",
     "author":"Esther Clark",
     "ingredients": [
@@ -315,11 +331,13 @@
        "fibre:2g",
        "protein:14g",
        "salt:1g"
-   ]
+   ],
+   "rating":127,
+   "serving":1
    },
    {
     "id": 10,
-    "image": "./images/healthypastaprimaver.png",
+    "image": "healthypastaprimaver.png",
     "name" : "Healthy pasta primavera",
     "author":"Good Food team",
     "ingredients": [
@@ -350,11 +368,13 @@
        "fibre:9g",
        "protein:20g",
        "salt:0.1g"
-   ]
+   ],
+   "rating":53,
+   "serving":4
    },
     {
     "id": 11,
-    "image": "./images/curriedbroccoliboiledeggsontoast.png",
+    "image": "curriedbroccoliboiledeggsontoast.png",
     "name" : "Curried broccoli & boiled eggs on toast",
     "author":"Sophie Godwin – Cookery writer",
     "ingredients": [
@@ -383,11 +403,13 @@
        "fibre:7g",
        "protein:17g",
        "salt:0.7g"
-   ]
+   ],
+   "rating":2,
+   "serving":2
    },
      {
     "id": 12,
-    "image": "./images/roastedradishes.png",
+    "image": "roastedradishes.png",
     "name" : "Roasted radishes",
     "author":"Sophie Godwin - Cookery writer",
     "ingredients": [
@@ -410,11 +432,13 @@
        "fibre:1g",
        "protein:1g",
        "salt:0.02g"
-   ]
+   ],
+   "rating":1,
+   "serving":6
    },
    {
     "id": 13,
-    "image": "./images/Creamyspinachandmushroompenne.png",
+    "image": "Creamyspinachandmushroompenne.png",
     "name" : "Creamy spinach & mushroom penne",
     "author":"Sara Buenfeld",
     "ingredients": [
@@ -442,11 +466,13 @@
        "fibre:11g",
        "protein:18g",
        "salt:1.06g"
-   ]
+   ],
+   "rating":6,
+   "serving":2
    },
      {
     "id": 14,
-    "image": "./images/warmspringvegetables.png",
+    "image": "warmspringvegetables.png",
     "name" : "Warm spring vegetables",
     "author":"James Martin",
     "ingredients": [
@@ -473,11 +499,13 @@
        "fibre:4g",
        "protein:4g",
        "salt:0.1g"
-   ]
+   ],
+   "rating":9,
+   "serving":6
    },
       {
     "id": 15,
-    "image": "./images/roastradishes.png",
+    "image": "roastradishes.png",
     "name" : "Simple roast radishes",
     "author":"Tom Kerridge",
     "ingredients": [
@@ -499,11 +527,13 @@
        "fibre:1g",
        "protein:1g",
        "salt:0.1g"
-   ]
+   ],
+   "rating":3,
+   "serving":1
    },
   {
     "id": 16,
-    "image": "./images/houmous.png",
+    "image": "houmous.png",
     "name" : "Pepper & walnut hummus with veggie dippers",
     "author":"Sara Buenfeld",
     "ingredients": [
@@ -530,11 +560,13 @@
        "fibre:12g",
        "protein:14g",
        "salt:0.8g"
-   ]
+   ],
+   "rating":9,
+   "serving":2
    },
    {
     "id": 17,
-    "image": "./images/roastspicedduckwithplums.png",
+    "image": "roastspicedduckwithplums.png",
     "name" : "Roast spiced duck with plums",
     "author":"Tom Kerridge",
     "ingredients": [
@@ -564,11 +596,13 @@
        "fibre:4g",
        "protein:33g",
        "salt:2.9g"
-   ]
+   ],
+   "rating":17,
+   "serving":4
    },
       {
     "id": 18,
-    "image": "./images/recipeimagelegacy.png",
+    "image": "recipeimagelegacy.png",
     "name" : "Best Yorkshire puddings",
     "author":"Barney Desmazery",
     "ingredients": [
@@ -586,8 +620,8 @@
        "Place the tins back in the oven and leave undisturbed for 20-25 mins until the puddings have puffed up and browned.",
        "Serve immediately. You can now cool them and freeze for up to 1 month."
     ],
-   "preptime":5,
-   "cooktime":20,
+   "preptime":975,
+   "cooktime":8,
    "nutrition": [
        "kcal:199",
        "fat:13g",
@@ -597,11 +631,13 @@
        "fibre:0g",
        "protein:6g",
        "salt:0.12g"
-   ]
+   ],
+   "rating":17,
+   "serving":4
    },
     {
     "id": 19,
-    "image": "./images/fondantpotatoes.png",
+    "image": "fondantpotatoes.png",
     "name" : "Fondant potatoes",
     "author":"Esther Clark",
     "ingredients": [
@@ -629,11 +665,13 @@
        "fibre:3g",
        "protein:4g",
        "salt:0.2g"
-   ]
+   ],
+   "rating":36,
+   "serving":6
    },
      {
     "id": 20,
-    "image": "./images/HasselbackPotatoes.png",
+    "image": "HasselbackPotatoes.png",
     "name" : "Hasselback potatoes",
     "author":"Anna Glover",
     "ingredients": [
@@ -658,7 +696,9 @@
        "fibre:8g",
        "protein:7g",
        "salt:0.12g"
-   ]
+   ],
+   "rating":17,
+   "serving":4
    }
  
 

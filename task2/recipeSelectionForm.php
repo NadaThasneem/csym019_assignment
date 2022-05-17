@@ -1,3 +1,10 @@
+<?php
+    session_start();
+    if(!(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"]) === true){
+        header("location: index.php");
+        exit;
+    }
+?>
 <!DOCTYPE html>
 <html>
 
@@ -10,8 +17,9 @@
 </head>
 
 <body class="bg-dark">
+
     <div class="header">
-        <h1 class="recipe">RECIPE HUB</h1>
+        <h1 class="recipe">CSYM019 - BBC GOOD FOOD RECIPES</h1>
         <div class="header-middle">
             <a href="recipeSelectionForm.php" class="active">Recipes</a>
             <a href="newRecipe.php">Add New Recipe</a>
@@ -43,18 +51,18 @@
                 include 'dbcon.php';
                 $con = OpenCon();
                 try {
-                    $result=$con->query("SELECT * FROM nutritions INNER JOIN recipe ON recipe.id=nutritions.recipe_id ORDER BY title");
+                    $result=$con->query("SELECT * FROM user INNER JOIN recipe ON user.id=recipe.author INNER JOIN nutritions ON recipe.id=nutritions.recipe_id ORDER BY title");
                     $count=0;
                     foreach ($result as $r) {
                         # code...
-                        // print_r($r);
+                        // var_dump($r);
                         $count=$count+1;
                         $row="<tr>";
                         $row.="<td><input type=\"checkbox\" id=\"".$r['id']."\" name=\"recipe[]\" value=\"".$r['id']."\"></td>";
                         $row.="<td>$count</td>";
                         $row.="<td><img src=\"./images/".$r['image']."\" alt=\"".$r['title']."\" width=\"100\"vw height=\"100\"vh></td>";
                         $row.="<td>".$r['title']."</td>";
-                        $row.="<td>".$r['author']."</td>";
+                        $row.="<td>".$r['first_name']." ".$r['last_name']."</td>";
                         $row.="<td>".$r['ratings']."</td>";
 
                         $time="<td><ul class=\"list-group list-group-flush\">";
