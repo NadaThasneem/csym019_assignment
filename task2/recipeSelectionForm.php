@@ -5,11 +5,21 @@
     <link rel="stylesheet" href="recipe.css">
 	<script src="jquery-3.6.0.min.js" type="text/javascript"></script>
     <link rel="stylesheet" href="bootstrap.min.css">
+    <title>CSYM019 - BBC GOOD FOOD RECIPES</title>
+
 </head>
 
 <body class="bg-dark">
-    <h1 class="recipe">RECIPE</h1>
-    <a href="logout.php" class="recipe">Sign Out of Your Account</a>
+    <div class="header">
+        <h1 class="recipe">RECIPE HUB</h1>
+        <div class="header-middle">
+            <a href="recipeSelectionForm.php" class="active">Recipes</a>
+            <a href="newRecipe.php">Add New Recipe</a>
+        </div>
+        <div class="header-right">
+            <a href="logout.php">Sign Out</a>
+        </div>
+    </div>
 
     <table class="table table-striped table-dark align-middle">
         <tr>
@@ -24,24 +34,25 @@
             <th scope="col">Ingredients</th>
             <th scope="col">Methods</th>
             <th scope="col">Calorie</th>
+            <th scope="col"></th>
         </tr>
         <tbody id="data">
-            <form method='post' action='SampleRecipeReport.php'>
+            <form method='post' action='SampleRecipeReport.php' id="recipe-form">
             <?php
                 
                 include 'dbcon.php';
                 $con = OpenCon();
                 try {
-                    $result=$con->query("SELECT * FROM recipe INNER JOIN nutritions ON recipe.id=nutritions.recipe_id ORDER BY title");
+                    $result=$con->query("SELECT * FROM nutritions INNER JOIN recipe ON recipe.id=nutritions.recipe_id ORDER BY title");
                     $count=0;
                     foreach ($result as $r) {
                         # code...
-                        // var_dump($r);
+                        // print_r($r);
                         $count=$count+1;
                         $row="<tr>";
                         $row.="<td><input type=\"checkbox\" id=\"".$r['id']."\" name=\"recipe[]\" value=\"".$r['id']."\"></td>";
                         $row.="<td>$count</td>";
-                        $row.="<td><img src=\"./images/houmous.png\" width=\"100\"vw height=\"100\"vh></td>";
+                        $row.="<td><img src=\"./images/".$r['image']."\" alt=\"".$r['title']."\" width=\"100\"vw height=\"100\"vh></td>";
                         $row.="<td>".$r['title']."</td>";
                         $row.="<td>".$r['author']."</td>";
                         $row.="<td>".$r['ratings']."</td>";
@@ -73,17 +84,43 @@
 
                         $row.="<td>".$r['kcal']."</td>";
 
+                        $row.='<td><a class="deletebtn" href="delete.php?d='.$r['id'].'"><svg width="18" height="18" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                        <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>
+                        <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/>
+                      </svg></a></td>';
+
                         echo $row;
+                        
                     }
+
+
 
                 }catch (\PDOException $e) {
                     die($e->getMessage());
                 }
 
             ?>
-            <input type="submit" value="Submit">
+            </table>
+            <div class="recipe-submit">
+                <input type="submit" value="Submit" class="recipesbt" >
+            </div>
 
         </form>
+
+        <script>
+
+            $("#recipe-form").submit(function(e){
+                if ($('input[name="recipe[]"]:checked').length > 0) {
+                    return true;
+                } else {
+                    // if($('#delete')){
+                    //     return true;
+                    // }
+                    alert("Please select one or more recipe")
+                    return false;
+                }
+            });
+        </script>
         </tbody>
     </table>
     

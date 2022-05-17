@@ -1,131 +1,216 @@
+<?php
+    session_start();
+?>
 <!DOCTYPE html>
+<html lang="en">
 <head>
 	<script src="jquery-3.6.0.min.js" type="text/javascript"></script>
+    <title>CSYM019 - BBC GOOD FOOD RECIPES</title>
+    <link rel="stylesheet" href="recipe.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="test.css">
+
 </head>
-</body>
-<script>
-    //Ingredients
-    $(document).ready(function() {
-        var wrapper = $(".ingredients");
-        var add_button = $(".add_ingredient");
+<body>
+   
+    <script>
+        //Ingredients
+        $(document).ready(function() {
+            var wrapper = $(".ingredients");
+            var add_button = $(".add_ingredient");
 
-        var x = 1;
-        $(add_button).click(function(e) {
-            e.preventDefault();
-            x++;
-            $(wrapper).append('<div><input type="text" name="ingredients[]"/><a href="#" class="delete">Delete</a></div>'); //add input box
+            var x = 1;
+            $(add_button).click(function(e) {
+                e.preventDefault();
+                x++;
+                $(wrapper).append('<div><input type="text" name="ingredients[]" class="form-control"/><a href="#" class="delete">Delete</a></div>'); //add input box
+            });
+
+            $(wrapper).on("click", ".delete", function(e) {
+                e.preventDefault();
+                $(this).parent('div').remove();
+                x--;
+            })
+            
+            //Methods
+            var wrapper2 = $(".methods");
+            var add_button2 = $(".add_methods");
+
+            var y = 1;
+            $(add_button2).click(function(e) {
+                e.preventDefault();
+                y++;
+                $(wrapper2).append('<div><input type="text" name="methods[]" class="form-control"/><a href="#" class="delete">Delete</a></div>'); //add input box
+            });
+
+            $(wrapper2).on("click", ".delete", function(e) {
+                e.preventDefault();
+                $(this).parent('div').remove();
+                y--;
+            })
         });
-
-        $(wrapper).on("click", ".delete", function(e) {
-            e.preventDefault();
-            $(this).parent('div').remove();
-            x--;
-        })
-        
-        //Methods
-        var wrapper2 = $(".methods");
-        var add_button2 = $(".add_methods");
-
-        var y = 1;
-        $(add_button2).click(function(e) {
-            e.preventDefault();
-            y++;
-            $(wrapper2).append('<div><input type="text" name="methods[]"/><a href="#" class="delete">Delete</a></div>'); //add input box
-        });
-
-        $(wrapper2).on("click", ".delete", function(e) {
-            e.preventDefault();
-            $(this).parent('div').remove();
-            y--;
-        })
-    });
-</script>
-    <form method="post" action="#">
-        <label>Title</label>
-        <input type="text"  name="title">
-        <br>
-        <label>Author</label>
-        <input type="text"  name="author">
-        <br>
-        <label>Ratings</label>
-        <input type="text"  name="ratings">
-        <br>
-        <label>Time</label><br>
-        <label>Preparation Time</label>
-        <input type="text"  name="preptime"><br>
-        <label>Cooking Time</label>
-        <input type="text"  name="cooktime">
-        <br>
-        <label>Serving</label>
-        <input type="text"  name="serving">
-        <br>
-        <label>Ingredients</label>
-        <div class="ingredients">
-            <button class="add_ingredient">Add Ingredient &nbsp; 
-              <span style="font-size:16px; font-weight:bold;">+ </span>
-            </button>
-            <div><input type="text" name="ingredients[]"></div>
+    </script>
+    <div class="header">
+        <h1 class="recipe">RECIPE HUB</h1>
+        <div class="header-middle">
+            <a href="recipeSelectionForm.php">Recipes</a>
+            <a href="newRecipe.php" class="active">Add New Recipe</a>
         </div>
-        <br>
-        <label>Methods</label>
-        <div class="methods">
-            <button class="add_methods">Add Method &nbsp; 
-              <span style="font-size:16px; font-weight:bold;">+ </span>
-            </button>
-            <div><input type="text" name="methods[]"></div>
+        <div class="header-right">
+            <a href="logout.php">Sign Out</a>
         </div>
-        <br>
-        <label>Nutritions</label>
-        <br>
-        <label>kcal</label>
-        <input type="text"  name="kcal">
-        <br>
-        <label>fat</label>
-        <input type="text"  name="fat">
-        <br>
-        <label>saturates</label>
-        <input type="text"  name="saturates">
-        <br>
-        <label>carbs</label>
-        <input type="text"  name="carbs">
-        <br>
-        <label>sugars</label>
-        <input type="text"  name="sugars">
-        <br>
-        <label>fibre</label>
-        <input type="text"  name="fibre">
-        <br>
-        <label>protein</label>
-        <input type="text"  name="protein">
-        <br>
-        <label>salt</label>
-        <input type="text"  name="salt">
-        <br>
-        <label>Image</label>
-        <input type="file" id="myFile" name="filename">
-        <br>
-        <input type="submit" value="Submit">
-    </form>
+    </div>
+    
+                <div class="form-content">
+                    <div class="form-items">
+
+                        <form method="post" action="#" enctype="multipart/form-data">
+                            <h1 style="color:#fff; text-align:center; font-size:70px">Recipe</h1>
+                            <div class="form-group">
+                                <label class="col-sm-2 col-form-label col-form-label-lg">Title</label>
+                                <input type="text"  name="title" class="form-control">
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-sm-2 col-form-label col-form-label-lg">Ratings</label>
+                                <input type="text"  name="ratings" class="form-control">
+                            </div>
+                            <br>
+                            <div class="form-group">
+                                <h2 style="color:#fff;">Time</h2>
+                                <label class="col-sm-2 col-form-label col-form-label-lg">Preparation Time</label>
+                                <input type="text"  name="preptime" class="form-control">
+                                <label class="col-sm-2 col-form-label col-form-label-lg">Cooking Time</label>
+                                <input type="text"  name="cooktime" class="form-control">
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-sm-2 col-form-label col-form-label-lg">Serving</label>
+                                <input type="text"  name="serving"  class="form-control">
+                            </div>
+
+                            <br>
+                            <div class="form-group">
+                                <h2 style="color:#fff;">Ingredients</h2>
+                                <div class="ingredients">
+                                    <button class="add_ingredient">Add Ingredient &nbsp; 
+                                    <span style="font-size:16px; font-weight:bold;">+ </span>
+                                    </button>
+                                    <div><input type="text" name="ingredients[]"  class="form-control"><br></div>
+                                </div>
+                            </div>
+
+                            <br>
+                            <div class="form-group">
+                                <h2 style="color:#fff;">Methods</h2>
+                                <div class="methods">
+                                    <button class="add_methods">Add Method &nbsp; 
+                                    <span style="font-size:16px; font-weight:bold;">+ </span>
+                                    </button>
+                                    <div><input type="text" name="methods[]"  class="form-control"><br></div>
+                                </div>
+                            </div>
+
+                            <br>
+                            <div class="form-group">
+                                <h2 style="color:#fff;">Nutritions</h2>
+                                <div class="form-group row">
+                                    <div class="form-group col-md-6">
+                                        <label class="col-sm-2 col-form-label col-form-label-lg">kcal</label>
+                                        <input type="text"  name="kcal"  class="form-control">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label class="col-sm-2 col-form-label col-form-label-lg">fat</label>
+                                        <input type="text"  name="fat"  class="form-control">
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group row">
+                                    <div class="form-group  col-md-6">
+                                        <label class="col-sm-2 col-form-label col-form-label-lg">saturates</label>
+                                        <input type="text"  name="saturates"  class="form-control">
+                                    </div>
+                        
+                                    
+                                    <div class="form-group  col-md-6">
+                                        <label class="col-sm-2 col-form-label col-form-label-lg">carbs</label>
+                                        <input type="text"  name="carbs"  class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <div class="form-group col-md-6">
+                                        <label class="col-sm-2 col-form-label col-form-label-lg">sugars</label>
+                                        <input type="text"  name="sugars"  class="form-control">
+                                    </div>
+                        
+                                    
+                                    <div class="form-group col-md-6">
+                                        <label class="col-sm-2 col-form-label col-form-label-lg">fibre</label>
+                                        <input type="text"  name="fibre"  class="form-control">
+                                    </div>
+                                </div>
+
+                                
+                    
+                                
+                                <div class="form-group row">
+                                    <div class="form-group col-md-6">
+                                        <label class="col-sm-2 col-form-label col-form-label-lg">protein</label>
+                                        <input type="text"  name="protein"  class="form-control">
+                                    </div>
+                        
+                                    
+                                    <div class="form-group col-md-6">
+                                        <label class="col-sm-2 col-form-label col-form-label-lg">salt</label>
+                                        <input type="text"  name="salt"  class="form-control">
+                                    </div>
+                                </div>
+
+                                <br>
+                                
+                                <div class="form-group">
+                                    <label class="col-sm-2 col-form-label col-form-label-lg">Image</label>
+                                    <input type="file" name="image"  class="form-control"/>
+                                </div>
+                    
+                                <br>
+                                
+                            </div>
+
+
+
+                            <input type="submit" value="Submit" class="btn btn-primary">
+                        </form>
+                    </div>
+                </div>
 
     <?php
         if(isset($_POST['title'])){
             include 'dbcon.php';
             $con = OpenCon();
             try {
+                $file_name = $_FILES['image']['name'];
+                $temp = explode(".", $_FILES["image"]["name"]);
+                $newfilename = round(microtime(true)) . '.' . end($temp);
+                move_uploaded_file($_FILES["image"]["tmp_name"], "images/" . $newfilename);
+
                 $con->beginTransaction();
-                $q="insert into recipe(title, author, ratings,preparation_time, cooking_time,serving, ingredients, methods) values(:title,:author,:ratings, :preparation_time, :cooking_time, :serving, :ingredients, :methods);";
+                $q="insert into recipe(title, author, ratings,preparation_time, cooking_time,serving, ingredients, methods, image) values(:title,:author,:ratings, :preparation_time, :cooking_time, :serving, :ingredients, :methods, :image);";
                 $stmt=$con->prepare($q);
                 $values = [
                     'title' => $_POST['title'],
-                    'author' => $_POST['author'],
+                    'author' => $_SESSION['id'],
                     'ratings' => $_POST['ratings'],
                     'preparation_time' => $_POST['preptime'],
                     'cooking_time' => $_POST['cooktime'],
                     'serving' => $_POST['serving'],
                     'ingredients'=> "".json_encode($_POST['ingredients']),
-                    'methods' => "".json_encode($_POST['methods'])
+                    'methods' => "".json_encode($_POST['methods']),
+                    'image' => $newfilename
                    ];
                    
+               
                 $stmt->execute($values);
     
                 $recipeid=$con->lastInsertId();
@@ -145,7 +230,8 @@
                 $stmt1->execute($values1);
                 $con->commit();
                 CloseCon($con);
-                echo "Recipe saved successfully.";
+                
+                echo "<script type='text/javascript'>alert('Recipe saved successfully');</script>";
             } catch (\PDOException $e) {
                 $con->rollBack();
                 die($e->getMessage());
@@ -155,3 +241,5 @@
         }
     ?>
 </body>
+
+</html>

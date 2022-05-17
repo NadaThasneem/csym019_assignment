@@ -4,12 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CSYM019 - BBC GOOD FOOD RECIPES</title>
 	<script src="chart.min.js" type="text/javascript"></script>
-    <link rel="stylesheet" href="bootstrap.min.css">
 	<script src="jquery-3.6.0.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="recipe.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="test.css">
 </head>
 <body>
+    <div class="header">
+        <h1 class="recipe">RECIPE HUB</h1>
+        <div class="header-middle">
+            <a href="recipeSelectionForm.php">Recipes</a>
+            <a href="newRecipe.php">Add New Recipe</a>
+        </div>
+        <div class="header-right">
+            <a href="logout.php">Sign Out</a>
+        </div>
+    </div>
+    <div class="report-head">
+        <p class="report">Recipe Report</p>
+    </div>
+
 <script>
         function createPie(id, dataPie){
             let ctx = document.getElementById(id);
@@ -70,6 +86,7 @@
                 include 'dbcon.php';
                 $con = OpenCon();
                 try {
+
                     $q1="SELECT * FROM recipe INNER JOIN nutritions ON recipe.id=nutritions.recipe_id WHERE nutritions.recipe_id IN (".trim(str_repeat(', ?', count($_POST['recipe'])), ', ').") ORDER BY title;";
                     $stmt=$con->prepare($q1);
                     $stmt->execute($_POST['recipe']);
@@ -81,7 +98,7 @@
                         $count=$count+1;
                         $row="<tr>";
                         $row.="<td>$count</td>";
-                        $row.="<td><img src=\"./images/houmous.png\" width=\"100\"vw height=\"100\"vh></td>";
+                        $row.="<td><img src=\"./images/".$r['image']."\" width=\"100\"vw height=\"100\"vh></td>";
                         $row.="<td>".$r['title']."</td>";
                         $row.="<td>".$r['author']."</td>";
                         $row.="<td>".$r['ratings']."</td>";
@@ -118,23 +135,24 @@
                         echo $row;
                     }
 
-                    function rand_color() {
-                        return '#' . str_pad(dechex(mt_rand(0, 0xFFFFFF)), 6, '0', STR_PAD_LEFT);
-                    }
+                    if(count($_POST['recipe'])>1){
+                        function rand_color() {
+                            return '#' . str_pad(dechex(mt_rand(0, 0xFFFFFF)), 6, '0', STR_PAD_LEFT);
+                        }
 
-                    
-                    $barData=[];
-                    foreach ($result as $r) {
-                        $barValue= [$r['kcal'], $r['fat'], $r['saturates'] , $r['carbs'] , $r['sugars'] , $r['fibre'] , $r['protein'] , $r['salt'] ] ;
-                        $array = [
-                            "label" => $r['title'],
-                            "backgroundColor" => rand_color(),
-                            "data" => $barValue
-                        ];
-                        $barData[] = $array;
+                        
+                        $barData=[];
+                        foreach ($result as $r) {
+                            $barValue= [$r['kcal'], $r['fat'], $r['saturates'] , $r['carbs'] , $r['sugars'] , $r['fibre'] , $r['protein'] , $r['salt'] ] ;
+                            $array = [
+                                "label" => $r['title'],
+                                "backgroundColor" => rand_color(),
+                                "data" => $barValue
+                            ];
+                            $barData[] = $array;
+                        }
+                        $d = json_encode($barData);
                     }
-                    $d = json_encode($barData);
-                    
 
                 }catch (\PDOException $e) {
                     die($e->getMessage());
@@ -145,10 +163,26 @@
 
         </tbody>
     </table>
-    <div style="width: 30vw; height: 30vh;" >
-        <canvas id="myChart" width="400" height="400"></canvas>
-    </div>
+    
+    
+    <?php
+            if(count($_POST['recipe'])>1){
+
+                echo '<div class="bar-graph">
+                <div class="report-head">
+                        <p class="report">Bar Graph</p>
+                </div><div>
+                    <canvas id="myChart"></canvas>
+                </div></div>';
+                
+            }else{
+                echo '<div class="bar-graph"></div>';
+            }
+    ?>
+    <!-- <div style="margin:200px;"></div> -->
+    
     <script>
+    
         
         function createChart(barData){
             var ctx = document.getElementById("myChart").getContext("2d");
@@ -180,38 +214,7 @@
                     echo '<script>createChart('.$d.');</script>';
 
 ?>
-   
-    <?php
 
-        // if(isset($_POST['recipe'])){
-        //     $recipeId=implode(",",$_POST['recipe']);
-        //     var_dump($recipeId);
-        //     include 'dbcon.php';
-        //     $con = OpenCon();
-        //     try {
-        //         $q = "SELECT * FROM nutritions WHERE recipe_id IN (".trim(str_repeat(', ?', count($_POST['recipe'])), ', ').")";
-        //         echo $q;
-        //         $stmt=$con->prepare($q);
-        //         // $values = ['recipe_id' => $recipeId];
-        //         $stmt->execute($_POST['recipe']);
-        //         $result = $stmt->fetchAll();
-        //         var_dump($result);
-        //         CloseCon($con);
-        //         for ($i=0; $i < count($result); $i++) { 
-        //             # code...
-        //             $dataPie = $result[$i]['fat'] . "," . $result[$i]['saturates'] . "," . $result[$i]['carbs'] . "," . $result[$i]['sugars'] . "," . $result[$i]['fibre'] . "," . $result[$i]['protein'] . "," . $result[$i]['salt'] ;
-        //             echo $dataPie;
-        //             echo '<canvas id="chart'.$i.'" width="400" height="400"></canvas>
-        //                     <script>createPie("chart'.$i.'",['.$dataPie.'])</script>';
-
-        //                 }
-        //     } catch (\PDOException $e) {
-        //         die($e->getMessage());
-        //     }
-        // }
-
-    ?>
-    
     
     
 </body>
