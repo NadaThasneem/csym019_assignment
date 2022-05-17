@@ -51,14 +51,14 @@
                 include 'dbcon.php';
                 $con = OpenCon();
                 try {
-                    $result=$con->query("SELECT * FROM user INNER JOIN recipe ON user.id=recipe.author INNER JOIN nutritions ON recipe.id=nutritions.recipe_id ORDER BY title");
+                    $result=$con->query("SELECT u.*,r.*,n.*,r.id as recId FROM user u INNER JOIN recipe r ON u.id=r.author INNER JOIN nutritions n ON r.id=n.recipe_id ORDER BY title");
                     $count=0;
                     foreach ($result as $r) {
                         # code...
                         // var_dump($r);
                         $count=$count+1;
                         $row="<tr>";
-                        $row.="<td><input type=\"checkbox\" id=\"".$r['id']."\" name=\"recipe[]\" value=\"".$r['id']."\"></td>";
+                        $row.="<td><input type=\"checkbox\" id=\"".$r['recId']."\" name=\"recipe[]\" value=\"".$r['recId']."\"></td>";
                         $row.="<td>$count</td>";
                         $row.="<td><img src=\"./images/".$r['image']."\" alt=\"".$r['title']."\" width=\"100\"vw height=\"100\"vh></td>";
                         $row.="<td>".$r['title']."</td>";

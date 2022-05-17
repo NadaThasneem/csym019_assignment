@@ -72,25 +72,25 @@
                             <h1 style="color:#fff; text-align:center; font-size:70px">Recipe</h1>
                             <div class="form-group">
                                 <label class="col-sm-2 col-form-label col-form-label-lg">Title</label>
-                                <input type="text"  name="title" class="form-control">
+                                <input type="text"  name="title" class="form-control" required>
                             </div>
 
                             <div class="form-group">
                                 <label class="col-sm-2 col-form-label col-form-label-lg">Ratings</label>
-                                <input type="text"  name="ratings" class="form-control">
+                                <input type="text"  name="ratings" class="form-control" required>
                             </div>
                             <br>
                             <div class="form-group">
                                 <h2 style="color:#fff;">Time</h2>
                                 <label class="col-sm-2 col-form-label col-form-label-lg">Preparation Time</label>
-                                <input type="text"  name="preptime" class="form-control">
+                                <input type="text"  name="preptime" class="form-control" required>
                                 <label class="col-sm-2 col-form-label col-form-label-lg">Cooking Time</label>
-                                <input type="text"  name="cooktime" class="form-control">
+                                <input type="text"  name="cooktime" class="form-control"required>
                             </div>
 
                             <div class="form-group">
                                 <label class="col-sm-2 col-form-label col-form-label-lg">Serving</label>
-                                <input type="text"  name="serving"  class="form-control">
+                                <input type="text"  name="serving"  class="form-control" required>
                             </div>
 
                             <br>
@@ -100,7 +100,7 @@
                                     <button class="add_ingredient">Add Ingredient &nbsp; 
                                     <span style="font-size:16px; font-weight:bold;">+ </span>
                                     </button>
-                                    <div><input type="text" name="ingredients[]"  class="form-control"><br></div>
+                                    <div><input type="text" name="ingredients[]"  class="form-control" required><br></div>
                                 </div>
                             </div>
 
@@ -111,7 +111,7 @@
                                     <button class="add_methods">Add Method &nbsp; 
                                     <span style="font-size:16px; font-weight:bold;">+ </span>
                                     </button>
-                                    <div><input type="text" name="methods[]"  class="form-control"><br></div>
+                                    <div><input type="text" name="methods[]"  class="form-control" required><br></div>
                                 </div>
                             </div>
 
@@ -121,37 +121,37 @@
                                 <div class="form-group row">
                                     <div class="form-group col-md-6">
                                         <label class="col-sm-2 col-form-label col-form-label-lg">kcal</label>
-                                        <input type="text"  name="kcal"  class="form-control">
+                                        <input type="text"  name="kcal"  class="form-control" required>
                                     </div>
                                     <div class="form-group col-md-6">
                                         <label class="col-sm-2 col-form-label col-form-label-lg">fat</label>
-                                        <input type="text"  name="fat"  class="form-control">
+                                        <input type="text"  name="fat"  class="form-control" required>
                                     </div>
                                 </div>
                                 
                                 <div class="form-group row">
                                     <div class="form-group  col-md-6">
                                         <label class="col-sm-2 col-form-label col-form-label-lg">saturates</label>
-                                        <input type="text"  name="saturates"  class="form-control">
+                                        <input type="text"  name="saturates"  class="form-control" required>
                                     </div>
                         
                                     
                                     <div class="form-group  col-md-6">
                                         <label class="col-sm-2 col-form-label col-form-label-lg">carbs</label>
-                                        <input type="text"  name="carbs"  class="form-control">
+                                        <input type="text"  name="carbs"  class="form-control" required>
                                     </div>
                                 </div>
 
                                 <div class="form-group row">
                                     <div class="form-group col-md-6">
                                         <label class="col-sm-2 col-form-label col-form-label-lg">sugars</label>
-                                        <input type="text"  name="sugars"  class="form-control">
+                                        <input type="text"  name="sugars"  class="form-control" required>
                                     </div>
                         
                                     
                                     <div class="form-group col-md-6">
                                         <label class="col-sm-2 col-form-label col-form-label-lg">fibre</label>
-                                        <input type="text"  name="fibre"  class="form-control">
+                                        <input type="text"  name="fibre"  class="form-control" required>
                                     </div>
                                 </div>
 
@@ -161,13 +161,13 @@
                                 <div class="form-group row">
                                     <div class="form-group col-md-6">
                                         <label class="col-sm-2 col-form-label col-form-label-lg">protein</label>
-                                        <input type="text"  name="protein"  class="form-control">
+                                        <input type="text"  name="protein"  class="form-control" required>
                                     </div>
                         
                                     
                                     <div class="form-group col-md-6">
                                         <label class="col-sm-2 col-form-label col-form-label-lg">salt</label>
-                                        <input type="text"  name="salt"  class="form-control">
+                                        <input type="text"  name="salt"  class="form-control" required>
                                     </div>
                                 </div>
 
@@ -175,7 +175,7 @@
                                 
                                 <div class="form-group">
                                     <label class="col-sm-2 col-form-label col-form-label-lg">Image</label>
-                                    <input type="file" name="image"  class="form-control"/>
+                                    <input type="file" name="image"  class="form-control" required/>
                                 </div>
                     
                                 <br>

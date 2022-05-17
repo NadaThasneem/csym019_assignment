@@ -29,22 +29,22 @@
                                     <p class="text-white-50 mb-5">Please enter your details!</p>
 
                                     <div class="form-outline form-white mb-4">
-                                        <input type="text" name="first_name" id="first_name" class="form-control form-control-lg" />
+                                        <input type="text" name="first_name" id="first_name" class="form-control form-control-lg" required/>
                                         <label class="form-label" for="first_name">First Name</label>
                                     </div>
 
                                     <div class="form-outline form-white mb-4">
-                                        <input type="text" name="last_name" id="last_name" class="form-control form-control-lg" />
+                                        <input type="text" name="last_name" id="last_name" class="form-control form-control-lg" required/>
                                         <label class="form-label" for="last_name">Last Name</label>
                                     </div>
 
                                     <div class="form-outline form-white mb-4">
-                                        <input type="email" name="email" id="email" class="form-control form-control-lg" />
+                                        <input type="email" name="email" id="email" class="form-control form-control-lg" required/>
                                         <label class="form-label" for="email">Email</label>
                                     </div>
 
                                     <div class="form-outline form-white mb-4">
-                                        <input type="password" name="password" id="password" class="form-control form-control-lg" />
+                                        <input type="password" name="password" id="password" class="form-control form-control-lg" required />
                                         <label class="form-label" for="password">Password</label>
                                     </div>
 

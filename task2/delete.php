@@ -9,9 +9,10 @@ if(isset($_GET['d'])){
     $con = OpenCon();
     $con->beginTransaction();
 
-    $con->query("delete from nutritions where id=".$_GET['d']);
-    $con->query("delete from recipe where id=".$_GET['d']);
-
+    $stmt=$con->prepare("delete from nutritions where id=:id");
+    $stmt->execute(['id'=>$_GET['d']]);
+    $stmt1=$con->prepare("delete from recipe where id=:id");
+    $stmt1->execute(['id'=>$_GET['d']]);
     $con->commit();
 
     header("location: recipeSelectionForm.php");
