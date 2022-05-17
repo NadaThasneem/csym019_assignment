@@ -104,7 +104,7 @@
                         $count=$count+1;
                         $row="<tr>";
                         $row.="<td>$count</td>";
-                        $row.="<td><img src=\"./images/houmous.png\" width=\"100\"vw height=\"100\"vh></td>";
+                        $row.="<td><img src=\"./images/".$r['i']."\" width=\"100\"vw height=\"100\"vh></td>";
                         $row.="<td>".$r['title']."</td>";
                         $row.="<td>".$r['author']."</td>";
                         $row.="<td>".$r['ratings']."</td>";
