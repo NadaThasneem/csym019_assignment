@@ -20,7 +20,7 @@
 </head>
 <body>
     <div class="header">
-        <h1 class="recipe">RECIPE HUB</h1>
+        <h1 class="recipe">CSYM019 - BBC GOOD FOOD RECIPES</h1>
         <div class="header-middle">
             <a href="recipeSelectionForm.php">Recipes</a>
             <a href="newRecipe.php">Add New Recipe</a>
